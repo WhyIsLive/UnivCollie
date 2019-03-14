@@ -1,0 +1,64 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "LOGIN PAGE"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "INDEX"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "REGISTER"
+			}
+		},
+		{
+			"path": "pages/userinfor/userinfor",
+			"style": {
+				"navigationBarTitleText": "Personal Center",
+				"enablePullDownRefresh": true
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "UnivCollie",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	/*底部导航栏#515151*/
+	"tabBar": {
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/bottom/punch.png",
+				"selectedIconPath": "static/bottom/punch1.png",
+				"text": "安全记录"
+			},
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/bottom/police.png",
+				"selectedIconPath": "static/bottom/police1.png",
+				"text": "警务求助"
+			},
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/bottom/medical.png",
+				"selectedIconPath": "static/bottom/medical1.png",
+				"text": "医疗求助"
+			},
+			{
+				"pagePath": "pages/userinfor/userinfor",
+				"iconPath": "static/bottom/self.png",
+				"selectedIconPath": "static/bottom/self1.png",
+				"text": "个人中心"
+			}
+		]
+	}
+}

@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/register/register",
+    "pages/userinfor/userinfor"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/dogselect.png",
+        "selectedIconPath": "static/dogselect.png",
+        "text": "DogSet"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/dog.png",
+        "selectedIconPath": "static/dogselect.png",
+        "text": "DogSet"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/dog.png",
+        "selectedIconPath": "static/dogselect.png",
+        "text": "DogSet"
+      },
+      {
+        "pagePath": "pages/userinfor/userinfor",
+        "iconPath": "static/dog.png",
+        "selectedIconPath": "static/dogselect.png",
+        "text": "DogSet"
+      }
+    ]
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "UnivCollie"
+}

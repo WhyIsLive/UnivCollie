@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
+            document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"UnivCollie","entryPagePath":"pages/login/login.html","page":{"pages/login/login.html":{"window":{"navigationBarTitleText":"LOGIN PAGE"}},"pages/index/index.html":{"window":{"navigationBarTitleText":"INDEX"}},"pages/register/register.html":{"window":{"navigationBarTitleText":"REGISTER"}},"pages/userinfor/userinfor.html":{"window":{"navigationBarTitleText":"Personal Center","enablePullDownRefresh":true}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"UnivCollie","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"}},"tabBar":{"color":"","selectedColor":"","backgroundColor":"","borderStyle":"black","list":[{"pagePath":"pages/index/index.html","iconPath":"static/bottom/punch.png","selectedIconPath":"static/bottom/punch1.png","text":"安全记录"},{"pagePath":"pages/index/index.html","iconPath":"static/bottom/police.png","selectedIconPath":"static/bottom/police1.png","text":"警务求助"},{"pagePath":"pages/index/index.html","iconPath":"static/bottom/medical.png","selectedIconPath":"static/bottom/medical1.png","text":"医疗求助"},{"pagePath":"pages/userinfor/userinfor.html","iconPath":"static/bottom/self.png","selectedIconPath":"static/bottom/self1.png","text":"个人中心"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/login/login","pages/index/index","pages/register/register","pages/userinfor/userinfor"],"subPackages":[],"usingComponents":{},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false}}
+
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+            };
+
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>
