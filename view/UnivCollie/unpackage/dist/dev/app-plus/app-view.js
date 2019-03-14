@@ -1070,25 +1070,25 @@ function gz$gwx_2(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_2)return __WXML_GLOBAL__.ops_cached.$gwx_2
 __WXML_GLOBAL__.ops_cached.$gwx_2=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'7e595675'])
-Z([3,'_view 7e595675 content'])
-Z([3,'_map 7e595675 map1'])
+Z([3,'654f31f2'])
+Z([3,'_view 654f31f2 content'])
+Z([3,'_map 654f31f2 map1'])
 Z([[7],[3,'latitude']])
 Z([[7],[3,'longitude']])
 Z([[7],[3,'covers']])
-Z([3,'_view 7e595675'])
-Z([3,'_text 7e595675 title'])
+Z([3,'_view 654f31f2'])
+Z([3,'_text 654f31f2 title'])
 Z([a,[[7],[3,'title']]])
 Z([3,'handleProxy'])
-Z([3,'_button 7e595675'])
+Z([3,'_button 654f31f2'])
 Z([[7],[3,'$k']])
-Z([1,'7e595675-0'])
+Z([1,'654f31f2-0'])
 Z([3,'text'])
 Z([3,'清除缓存数据'])
 Z(z[9])
 Z(z[10])
 Z(z[11])
-Z([1,'7e595675-1'])
+Z([1,'654f31f2-1'])
 Z(z[13])
 Z([3,'获取坐标位置'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_2);return __WXML_GLOBAL__.ops_cached.$gwx_2
@@ -1098,53 +1098,53 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_3)return __WXML_GLOBAL__.ops_cached.$gwx_3
 __WXML_GLOBAL__.ops_cached.$gwx_3=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'7e595675'])
+Z([3,'654f31f2'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_3);return __WXML_GLOBAL__.ops_cached.$gwx_3
 }
 function gz$gwx_4(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_4)return __WXML_GLOBAL__.ops_cached.$gwx_4
 __WXML_GLOBAL__.ops_cached.$gwx_4=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'7ccf5663'])
-Z([3,'_view 7ccf5663 content'])
-Z([3,'_view 7ccf5663 logo-row'])
-Z([3,'_view 7ccf5663 logo-row-img'])
-Z([3,'_image 7ccf5663'])
+Z([3,'68633216'])
+Z([3,'_view 68633216 content'])
+Z([3,'_view 68633216 logo-row'])
+Z([3,'_view 68633216 logo-row-img'])
+Z([3,'_image 68633216'])
 Z([3,'../../static/login_background.png'])
-Z([3,'_view 7ccf5663 input-group'])
-Z([3,'_view 7ccf5663 input-row border'])
-Z([3,'_text 7ccf5663 title'])
+Z([3,'_view 68633216 input-group'])
+Z([3,'_view 68633216 input-row border'])
+Z([3,'_text 68633216 title'])
 Z([3,'账号：'])
 Z([3,'handleProxy'])
-Z([3,'_input 7ccf5663'])
+Z([3,'_input 68633216'])
 Z([[7],[3,'$k']])
-Z([1,'7ccf5663-0'])
+Z([1,'68633216-0'])
 Z([3,'请输入手机号'])
 Z([3,'text'])
 Z([[7],[3,'telnumber']])
-Z([3,'_view 7ccf5663 input-row'])
+Z([3,'_view 68633216 input-row'])
 Z(z[8])
 Z([3,'密码：'])
 Z(z[10])
 Z(z[11])
 Z(z[12])
-Z([1,'7ccf5663-1'])
+Z([1,'68633216-1'])
 Z([3,'true'])
 Z([3,'请输入密码'])
 Z(z[15])
 Z([[7],[3,'password']])
-Z([3,'_view 7ccf5663 btn-row'])
+Z([3,'_view 68633216 btn-row'])
 Z(z[10])
-Z([3,'_button 7ccf5663 primary'])
+Z([3,'_button 68633216 primary'])
 Z(z[12])
-Z([1,'7ccf5663-2'])
+Z([1,'68633216-2'])
 Z([3,'primary'])
 Z([3,'登录'])
-Z([3,'_view 7ccf5663 action-row'])
-Z([3,'_navigator 7ccf5663'])
+Z([3,'_view 68633216 action-row'])
+Z([3,'_navigator 68633216'])
 Z([3,'../register/register'])
 Z([3,'注册账号'])
-Z([3,'_text 7ccf5663'])
+Z([3,'_text 68633216'])
 Z([3,'|'])
 Z(z[36])
 Z([3,'../pwd/pwd'])
@@ -1156,27 +1156,55 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_5)return __WXML_GLOBAL__.ops_cached.$gwx_5
 __WXML_GLOBAL__.ops_cached.$gwx_5=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'7ccf5663'])
+Z([3,'68633216'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_5);return __WXML_GLOBAL__.ops_cached.$gwx_5
 }
 function gz$gwx_6(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_6)return __WXML_GLOBAL__.ops_cached.$gwx_6
 __WXML_GLOBAL__.ops_cached.$gwx_6=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'432114a2'])
-Z([3,'_view 432114a2 content'])
-Z([3,'_view 432114a2 logo-row'])
-Z([3,'_view 432114a2 logo-row-img'])
-Z([3,'_image 432114a2'])
+Z([3,'29bfddc5'])
+Z([3,'_view data-v-44027ba5 box'])
+Z([3,'_view data-v-44027ba5 top'])
+Z([3,'_view data-v-44027ba5 contont'])
+Z([3,'_view data-v-44027ba5 button-help'])
+Z([3,'_image data-v-44027ba5 button-help-img'])
+Z([3,'../../static/mediclpage/button3.png'])
+Z([3,'_view data-v-44027ba5 bottom'])
+Z([3,'_view data-v-44027ba5 button-allergy'])
+Z([3,'_image data-v-44027ba5 button-allergy-img'])
+Z([3,'../../static/mediclpage/allergylog.png'])
+Z([3,'_view data-v-44027ba5 button-medication'])
+Z([3,'_image data-v-44027ba5 button-medication-img'])
+Z([3,'../../static/mediclpage/medicationlog.png'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_6);return __WXML_GLOBAL__.ops_cached.$gwx_6
+}
+function gz$gwx_7(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_7)return __WXML_GLOBAL__.ops_cached.$gwx_7
+__WXML_GLOBAL__.ops_cached.$gwx_7=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'29bfddc5'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_7);return __WXML_GLOBAL__.ops_cached.$gwx_7
+}
+function gz$gwx_8(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_8)return __WXML_GLOBAL__.ops_cached.$gwx_8
+__WXML_GLOBAL__.ops_cached.$gwx_8=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'413050c1'])
+Z([3,'_view 413050c1 content'])
+Z([3,'_view 413050c1 logo-row'])
+Z([3,'_view 413050c1 logo-row-img'])
+Z([3,'_image 413050c1'])
 Z([3,'../../static/login_background.png'])
-Z([3,'_view 432114a2 input-group'])
-Z([3,'_view 432114a2 input-row border'])
-Z([3,'_text 432114a2 title'])
+Z([3,'_view 413050c1 input-group'])
+Z([3,'_view 413050c1 input-row border'])
+Z([3,'_text 413050c1 title'])
 Z([3,'手机号：'])
 Z([3,'handleProxy'])
-Z([3,'_input 432114a2'])
+Z([3,'_input 413050c1'])
 Z([[7],[3,'$k']])
-Z([1,'432114a2-0'])
+Z([1,'413050c1-0'])
 Z([3,'请输入手机号'])
 Z([3,'number'])
 Z([[7],[3,'telnumber']])
@@ -1186,7 +1214,7 @@ Z([3,'学号：'])
 Z(z[10])
 Z(z[11])
 Z(z[12])
-Z([1,'432114a2-1'])
+Z([1,'413050c1-1'])
 Z([3,'请输入学号'])
 Z(z[15])
 Z([[7],[3,'studentid']])
@@ -1196,7 +1224,7 @@ Z([3,'姓名：'])
 Z(z[10])
 Z(z[11])
 Z(z[12])
-Z([1,'432114a2-2'])
+Z([1,'413050c1-2'])
 Z([3,'请输入姓名'])
 Z([3,'text'])
 Z([[7],[3,'username']])
@@ -1206,7 +1234,7 @@ Z([3,'密码：'])
 Z(z[10])
 Z(z[11])
 Z(z[12])
-Z([1,'432114a2-3'])
+Z([1,'413050c1-3'])
 Z([3,'true'])
 Z([3,'请输入密码'])
 Z(z[35])
@@ -1217,103 +1245,103 @@ Z([3,'验证码：'])
 Z(z[10])
 Z(z[11])
 Z(z[12])
-Z([1,'432114a2-4'])
+Z([1,'413050c1-4'])
 Z([3,'请输入验证码'])
 Z(z[35])
 Z([[7],[3,'code']])
-Z([3,'_view 432114a2 btn-row'])
+Z([3,'_view 413050c1 btn-row'])
 Z(z[10])
-Z([3,'_button 432114a2 primary'])
+Z([3,'_button 413050c1 primary'])
 Z(z[12])
-Z([1,'432114a2-5'])
+Z([1,'413050c1-5'])
 Z([3,'primary'])
 Z([a,[[7],[3,'button']]])
-Z([3,'_view 432114a2 action-row'])
-Z([3,'_navigator 432114a2'])
+Z([3,'_view 413050c1 action-row'])
+Z([3,'_navigator 413050c1'])
 Z([3,'../register/register'])
 Z([3,'用户条款'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_6);return __WXML_GLOBAL__.ops_cached.$gwx_6
+})(__WXML_GLOBAL__.ops_cached.$gwx_8);return __WXML_GLOBAL__.ops_cached.$gwx_8
 }
-function gz$gwx_7(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_7)return __WXML_GLOBAL__.ops_cached.$gwx_7
-__WXML_GLOBAL__.ops_cached.$gwx_7=[];
+function gz$gwx_9(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_9)return __WXML_GLOBAL__.ops_cached.$gwx_9
+__WXML_GLOBAL__.ops_cached.$gwx_9=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'432114a2'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_7);return __WXML_GLOBAL__.ops_cached.$gwx_7
+Z([3,'413050c1'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_9);return __WXML_GLOBAL__.ops_cached.$gwx_9
 }
-function gz$gwx_8(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_8)return __WXML_GLOBAL__.ops_cached.$gwx_8
-__WXML_GLOBAL__.ops_cached.$gwx_8=[];
+function gz$gwx_10(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_10)return __WXML_GLOBAL__.ops_cached.$gwx_10
+__WXML_GLOBAL__.ops_cached.$gwx_10=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'552a107a'])
-Z([3,'_div data-v-52b97bf8 vbox'])
-Z([3,'_image data-v-52b97bf8 top_back_img'])
+Z([3,'e93d5356'])
+Z([3,'_div data-v-1835ef96 vbox'])
+Z([3,'_image data-v-1835ef96 top_back_img'])
 Z([3,'aspectFit'])
 Z([3,'../../static/dulin-setting/set-top-bg.png'])
-Z([3,'_view data-v-52b97bf8 top'])
-Z([3,'_view data-v-52b97bf8 circle'])
-Z([3,'_image data-v-52b97bf8 head'])
+Z([3,'_view data-v-1835ef96 top'])
+Z([3,'_view data-v-1835ef96 circle'])
+Z([3,'_image data-v-1835ef96 head'])
 Z([3,'widthFix'])
 Z([3,'../../static/dulin-setting/testuser.png'])
-Z([3,'_view data-v-52b97bf8 top-texts'])
-Z([3,'_text data-v-52b97bf8 name'])
+Z([3,'_view data-v-1835ef96 top-texts'])
+Z([3,'_text data-v-1835ef96 name'])
 Z([a,[[7],[3,'username']]])
-Z([3,'_image data-v-52b97bf8 set-top-hr'])
+Z([3,'_image data-v-1835ef96 set-top-hr'])
 Z([3,'../../static/dulin-setting/set-top-hr.png'])
-Z([3,'_text data-v-52b97bf8 depart'])
+Z([3,'_text data-v-1835ef96 depart'])
 Z([a,[[7],[3,'studentid']]])
-Z([3,'_view data-v-52b97bf8'])
-Z([3,'_text data-v-52b97bf8'])
+Z([3,'_view data-v-1835ef96'])
+Z([3,'_text data-v-1835ef96'])
 Z([3,'绑定手机：'])
 Z(z[18])
 Z([a,[[7],[3,'telnumber']]])
-Z([3,'_view data-v-52b97bf8 top-changeInfo'])
+Z([3,'_view data-v-1835ef96 top-changeInfo'])
 Z(z[18])
 Z([3,'完善资料'])
-Z([3,'_view data-v-52b97bf8 middle'])
-Z([3,'_view data-v-52b97bf8 middle-left'])
-Z([3,'_image data-v-52b97bf8 middle-icon'])
+Z([3,'_view data-v-1835ef96 middle'])
+Z([3,'_view data-v-1835ef96 middle-left'])
+Z([3,'_image data-v-1835ef96 middle-icon'])
 Z([3,'../../static/dulin-setting/cust.png'])
 Z(z[18])
 Z([3,'打卡统计：'])
 Z(z[18])
 Z([3,'color:#12f358'])
 Z([a,[[7],[3,'pun_s']]])
-Z([3,'_text data-v-52b97bf8 middle-num'])
+Z([3,'_text data-v-1835ef96 middle-num'])
 Z([3,'/'])
 Z(z[18])
 Z([3,'color:#f31f1a'])
 Z([a,[[7],[3,'pun_f']]])
-Z([3,'_view data-v-52b97bf8 middle-line'])
-Z([3,'_view data-v-52b97bf8 middle-right'])
+Z([3,'_view data-v-1835ef96 middle-line'])
+Z([3,'_view data-v-1835ef96 middle-right'])
 Z(z[27])
 Z([3,'../../static/dulin-setting/loan.png'])
 Z(z[18])
 Z([3,'安全积分：'])
 Z(z[34])
 Z([a,[[7],[3,'seq_s']]])
-Z([3,'_view data-v-52b97bf8 index'])
+Z([3,'_view data-v-1835ef96 index'])
 Z([3,'handleProxy'])
-Z([3,'_view data-v-52b97bf8 cell'])
+Z([3,'_view data-v-1835ef96 cell'])
 Z([[7],[3,'$k']])
-Z([1,'552a107a-0'])
+Z([1,'e93d5356-0'])
 Z([3,'c1'])
-Z([3,'_view data-v-52b97bf8 cell-left'])
-Z([3,'_image data-v-52b97bf8 cell_icon'])
+Z([3,'_view data-v-1835ef96 cell-left'])
+Z([3,'_image data-v-1835ef96 cell_icon'])
 Z([3,'../../static/dulin-setting/teacher.png'])
-Z([3,'_text data-v-52b97bf8 cell-text'])
+Z([3,'_text data-v-1835ef96 cell-text'])
 Z([3,'辅导员'])
-Z([3,'_view data-v-52b97bf8 cell-right'])
-Z([3,'_image data-v-52b97bf8 right-arrow'])
+Z([3,'_view data-v-1835ef96 cell-right'])
+Z([3,'_image data-v-1835ef96 right-arrow'])
 Z([3,'../../static/dulin-setting/right-arrow.png'])
 Z([[7],[3,'showPrise1']])
-Z([3,'_view data-v-52b97bf8 cell1'])
+Z([3,'_view data-v-1835ef96 cell1'])
 Z(z[54])
 Z([3,'../../static/dulin-setting/name.png'])
-Z([3,'_text data-v-52b97bf8 content'])
+Z([3,'_text data-v-1835ef96 content'])
 Z([a,[3,'辅导员:'],[[7],[3,'teacher_name']]])
-Z([3,'_br data-v-52b97bf8'])
+Z([3,'_br data-v-1835ef96'])
 Z(z[54])
 Z([3,'../../static/dulin-setting/tel.png'])
 Z(z[65])
@@ -1321,7 +1349,7 @@ Z([a,[3,'联系号码:'],[[7],[3,'teacher_tel']]])
 Z(z[48])
 Z(z[49])
 Z(z[50])
-Z([1,'552a107a-1'])
+Z([1,'e93d5356-1'])
 Z([3,'c2'])
 Z(z[53])
 Z(z[54])
@@ -1332,7 +1360,7 @@ Z(z[58])
 Z(z[59])
 Z(z[60])
 Z([[7],[3,'showPrise2']])
-Z([3,'_view data-v-52b97bf8 cell2'])
+Z([3,'_view data-v-1835ef96 cell2'])
 Z(z[54])
 Z(z[64])
 Z(z[65])
@@ -1345,7 +1373,7 @@ Z([a,z[71][1],[[7],[3,'fre_tel']]])
 Z(z[48])
 Z(z[49])
 Z(z[50])
-Z([1,'552a107a-2'])
+Z([1,'e93d5356-2'])
 Z([3,'c3'])
 Z(z[53])
 Z(z[54])
@@ -1356,7 +1384,7 @@ Z(z[58])
 Z(z[59])
 Z(z[60])
 Z([[7],[3,'showPrise3']])
-Z([3,'_view data-v-52b97bf8 cell3'])
+Z([3,'_view data-v-1835ef96 cell3'])
 Z(z[54])
 Z(z[69])
 Z(z[65])
@@ -1364,7 +1392,7 @@ Z([a,z[71][1],[[7],[3,'pol_tel']]])
 Z(z[48])
 Z(z[49])
 Z(z[50])
-Z([1,'552a107a-3'])
+Z([1,'e93d5356-3'])
 Z([3,'c4'])
 Z(z[53])
 Z(z[54])
@@ -1375,7 +1403,7 @@ Z(z[58])
 Z(z[59])
 Z(z[60])
 Z([[7],[3,'showPrise4']])
-Z([3,'_view data-v-52b97bf8 cell4'])
+Z([3,'_view data-v-1835ef96 cell4'])
 Z(z[54])
 Z(z[69])
 Z(z[65])
@@ -1383,7 +1411,7 @@ Z([a,z[71][1],[[7],[3,'doc_tel']]])
 Z(z[48])
 Z(z[49])
 Z(z[50])
-Z([1,'552a107a-4'])
+Z([1,'e93d5356-4'])
 Z([3,'c5'])
 Z(z[53])
 Z(z[54])
@@ -1394,13 +1422,13 @@ Z(z[58])
 Z(z[59])
 Z(z[60])
 Z([[7],[3,'showPrise5']])
-Z([3,'_view data-v-52b97bf8 cell5'])
+Z([3,'_view data-v-1835ef96 cell5'])
 Z(z[65])
 Z([3,'简介'])
 Z(z[48])
 Z(z[49])
 Z(z[50])
-Z([1,'552a107a-5'])
+Z([1,'e93d5356-5'])
 Z(z[53])
 Z(z[54])
 Z([3,'../../static/dulin-setting/out.png'])
@@ -1409,30 +1437,30 @@ Z([3,'退出登录'])
 Z(z[58])
 Z(z[59])
 Z(z[60])
-})(__WXML_GLOBAL__.ops_cached.$gwx_8);return __WXML_GLOBAL__.ops_cached.$gwx_8
+})(__WXML_GLOBAL__.ops_cached.$gwx_10);return __WXML_GLOBAL__.ops_cached.$gwx_10
 }
-function gz$gwx_9(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_9)return __WXML_GLOBAL__.ops_cached.$gwx_9
-__WXML_GLOBAL__.ops_cached.$gwx_9=[];
+function gz$gwx_11(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_11)return __WXML_GLOBAL__.ops_cached.$gwx_11
+__WXML_GLOBAL__.ops_cached.$gwx_11=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'552a107a'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_9);return __WXML_GLOBAL__.ops_cached.$gwx_9
+Z([3,'e93d5356'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_11);return __WXML_GLOBAL__.ops_cached.$gwx_11
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./common/slots.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./index.vue.wxml','./pages/login/login.vue.wxml','./pages/login/login.wxml','./login.vue.wxml','./pages/register/register.vue.wxml','./pages/register/register.wxml','./register.vue.wxml','./pages/userinfor/userinfor.vue.wxml','./pages/userinfor/userinfor.wxml','./userinfor.vue.wxml'];d_[x[0]]={}
+var x=['./common/slots.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./index.vue.wxml','./pages/login/login.vue.wxml','./pages/login/login.wxml','./login.vue.wxml','./pages/medical/medical.vue.wxml','./pages/medical/medical.wxml','./medical.vue.wxml','./pages/register/register.vue.wxml','./pages/register/register.wxml','./register.vue.wxml','./pages/userinfor/userinfor.vue.wxml','./pages/userinfor/userinfor.wxml','./userinfor.vue.wxml'];d_[x[0]]={}
 var m0=function(e,s,r,gg){
 var z=gz$gwx_1()
 return r
 }
 e_[x[0]]={f:m0,j:[],i:[],ti:[],ic:[]}
 d_[x[1]]={}
-d_[x[1]]["7e595675"]=function(e,s,r,gg){
+d_[x[1]]["654f31f2"]=function(e,s,r,gg){
 var z=gz$gwx_2()
-var b=x[1]+':7e595675'
+var b=x[1]+':654f31f2'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/index.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[1]);return}
@@ -1507,9 +1535,9 @@ return r
 }
 e_[x[2]]={f:m2,j:[],i:[],ti:[x[3]],ic:[]}
 d_[x[4]]={}
-d_[x[4]]["7ccf5663"]=function(e,s,r,gg){
+d_[x[4]]["68633216"]=function(e,s,r,gg){
 var z=gz$gwx_4()
-var b=x[4]+':7ccf5663'
+var b=x[4]+':68633216'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/login/login.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[4]);return}
@@ -1642,12 +1670,103 @@ return r
 }
 e_[x[5]]={f:m4,j:[],i:[],ti:[x[6]],ic:[]}
 d_[x[7]]={}
-d_[x[7]]["432114a2"]=function(e,s,r,gg){
+d_[x[7]]["29bfddc5"]=function(e,s,r,gg){
 var z=gz$gwx_6()
-var b=x[7]+':432114a2'
+var b=x[7]+':29bfddc5'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/medical/medical.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[7]);return}
+p_[b]=true
+try{
+cs.push("./pages/medical/medical.vue.wxml:view:1:27")
+var oB=_n('view')
+_rz(z,oB,'class',1,e,s,gg)
+cs.push("./pages/medical/medical.vue.wxml:view:1:67")
+var xC=_n('view')
+_rz(z,xC,'class',2,e,s,gg)
+cs.pop()
+_(oB,xC)
+cs.push("./pages/medical/medical.vue.wxml:view:1:114")
+var oD=_n('view')
+_rz(z,oD,'class',3,e,s,gg)
+cs.push("./pages/medical/medical.vue.wxml:view:1:158")
+var fE=_n('view')
+_rz(z,fE,'class',4,e,s,gg)
+cs.push("./pages/medical/medical.vue.wxml:image:1:206")
+var cF=_mz(z,'image',['class',5,'src',1],[],e,s,gg)
+cs.pop()
+_(fE,cF)
+cs.pop()
+_(oD,fE)
+cs.pop()
+_(oB,oD)
+cs.push("./pages/medical/medical.vue.wxml:view:1:324")
+var hG=_n('view')
+_rz(z,hG,'class',7,e,s,gg)
+cs.push("./pages/medical/medical.vue.wxml:view:1:367")
+var oH=_n('view')
+_rz(z,oH,'class',8,e,s,gg)
+cs.push("./pages/medical/medical.vue.wxml:image:1:418")
+var cI=_mz(z,'image',['class',9,'src',1],[],e,s,gg)
+cs.pop()
+_(oH,cI)
+cs.pop()
+_(hG,oH)
+cs.push("./pages/medical/medical.vue.wxml:view:1:535")
+var oJ=_n('view')
+_rz(z,oJ,'class',11,e,s,gg)
+cs.push("./pages/medical/medical.vue.wxml:image:1:589")
+var lK=_mz(z,'image',['class',12,'src',1],[],e,s,gg)
+cs.pop()
+_(oJ,lK)
+cs.pop()
+_(hG,oJ)
+cs.pop()
+_(oB,hG)
+cs.pop()
+_(r,oB)
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m5=function(e,s,r,gg){
+var z=gz$gwx_6()
+return r
+}
+e_[x[7]]={f:m5,j:[],i:[],ti:[],ic:[]}
+d_[x[8]]={}
+var m6=function(e,s,r,gg){
+var z=gz$gwx_7()
+var oR=e_[x[8]].i
+_ai(oR,x[9],e_,x[8],1,1)
+var fS=_v()
+_(r,fS)
+cs.push("./pages/medical/medical.wxml:template:2:6")
+var cT=_oz(z,1,e,s,gg)
+var hU=_gd(x[8],cT,e_,d_)
+if(hU){
+var oV=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+fS.wxXCkey=3
+hU(oV,oV,fS,gg)
+gg.f=cur_globalf
+}
+else _w(cT,x[8],2,18)
+cs.pop()
+oR.pop()
+return r
+}
+e_[x[8]]={f:m6,j:[],i:[],ti:[x[9]],ic:[]}
+d_[x[10]]={}
+d_[x[10]]["413050c1"]=function(e,s,r,gg){
+var z=gz$gwx_8()
+var b=x[10]+':413050c1'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/register/register.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[7]);return}
+if(p_[b]){_wl(b,x[10]);return}
 p_[b]=true
 try{
 cs.push("./pages/register/register.vue.wxml:view:1:27")
@@ -1783,41 +1902,41 @@ throw err
 p_[b]=false
 return r
 }
-var m5=function(e,s,r,gg){
-var z=gz$gwx_6()
+var m7=function(e,s,r,gg){
+var z=gz$gwx_8()
 return r
 }
-e_[x[7]]={f:m5,j:[],i:[],ti:[],ic:[]}
-d_[x[8]]={}
-var m6=function(e,s,r,gg){
-var z=gz$gwx_7()
-var oR=e_[x[8]].i
-_ai(oR,x[9],e_,x[8],1,1)
-var fS=_v()
-_(r,fS)
+e_[x[10]]={f:m7,j:[],i:[],ti:[],ic:[]}
+d_[x[11]]={}
+var m8=function(e,s,r,gg){
+var z=gz$gwx_9()
+var lY=e_[x[11]].i
+_ai(lY,x[12],e_,x[11],1,1)
+var aZ=_v()
+_(r,aZ)
 cs.push("./pages/register/register.wxml:template:2:6")
-var cT=_oz(z,1,e,s,gg)
-var hU=_gd(x[8],cT,e_,d_)
-if(hU){
-var oV=_1z(z,0,e,s,gg) || {}
+var t1=_oz(z,1,e,s,gg)
+var e2=_gd(x[11],t1,e_,d_)
+if(e2){
+var b3=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-fS.wxXCkey=3
-hU(oV,oV,fS,gg)
+aZ.wxXCkey=3
+e2(b3,b3,aZ,gg)
 gg.f=cur_globalf
 }
-else _w(cT,x[8],2,18)
+else _w(t1,x[11],2,18)
 cs.pop()
-oR.pop()
+lY.pop()
 return r
 }
-e_[x[8]]={f:m6,j:[],i:[],ti:[x[9]],ic:[]}
-d_[x[10]]={}
-d_[x[10]]["552a107a"]=function(e,s,r,gg){
-var z=gz$gwx_8()
-var b=x[10]+':552a107a'
+e_[x[11]]={f:m8,j:[],i:[],ti:[x[12]],ic:[]}
+d_[x[13]]={}
+d_[x[13]]["e93d5356"]=function(e,s,r,gg){
+var z=gz$gwx_10()
+var b=x[13]+':e93d5356'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/userinfor/userinfor.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[10]);return}
+if(p_[b]){_wl(b,x[13]);return}
 p_[b]=true
 try{
 cs.push("./pages/userinfor/userinfor.vue.wxml:view:1:27")
@@ -2294,34 +2413,34 @@ throw err
 p_[b]=false
 return r
 }
-var m7=function(e,s,r,gg){
-var z=gz$gwx_8()
+var m9=function(e,s,r,gg){
+var z=gz$gwx_10()
 return r
 }
-e_[x[10]]={f:m7,j:[],i:[],ti:[],ic:[]}
-d_[x[11]]={}
-var m8=function(e,s,r,gg){
-var z=gz$gwx_9()
-var lY=e_[x[11]].i
-_ai(lY,x[12],e_,x[11],1,1)
-var aZ=_v()
-_(r,aZ)
+e_[x[13]]={f:m9,j:[],i:[],ti:[],ic:[]}
+d_[x[14]]={}
+var m10=function(e,s,r,gg){
+var z=gz$gwx_11()
+var o6=e_[x[14]].i
+_ai(o6,x[15],e_,x[14],1,1)
+var f7=_v()
+_(r,f7)
 cs.push("./pages/userinfor/userinfor.wxml:template:2:6")
-var t1=_oz(z,1,e,s,gg)
-var e2=_gd(x[11],t1,e_,d_)
-if(e2){
-var b3=_1z(z,0,e,s,gg) || {}
+var c8=_oz(z,1,e,s,gg)
+var h9=_gd(x[14],c8,e_,d_)
+if(h9){
+var o0=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-aZ.wxXCkey=3
-e2(b3,b3,aZ,gg)
+f7.wxXCkey=3
+h9(o0,o0,f7,gg)
 gg.f=cur_globalf
 }
-else _w(t1,x[11],2,18)
+else _w(c8,x[14],2,18)
 cs.pop()
-lY.pop()
+o6.pop()
 return r
 }
-e_[x[11]]={f:m8,j:[],i:[],ti:[x[12]],ic:[]}
+e_[x[14]]={f:m10,j:[],i:[],ti:[x[15]],ic:[]}
 if(path&&e_[path]){
 window.__wxml_comp_version__=0.02
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]

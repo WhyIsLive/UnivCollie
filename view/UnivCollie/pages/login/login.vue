@@ -43,7 +43,7 @@
 			if (telnumber.length != 0 && password.length != 0) {
 				uni.showLoading({
 					title: '登陆中',
-					mask:'true'
+					mask: 'true'
 				});
 				uni.request({
 					// url: 'http://127.0.0.1:8080/user/login',
@@ -55,7 +55,7 @@
 					},
 					success: (res) => {
 						console.log(res.data);
-						if (res.data.ID==0) {
+						if (res.data.ID == 0) {
 							uni.hideLoading();
 							uni.showToast({
 								icon: 'none',
@@ -81,8 +81,25 @@
 						});
 					}
 				})
-			}
+			};
+			uni.getProvider({
+				service: 'push',
+				success: function(res) {
+					console.log(res.provider)
+			
+					// 个推的名称为 igexin
+					if (~res.provider.indexOf('igexin')) {
+						uni.subscribePush({
+							provider: 'igexin',
+							success: function(res) {
+								console.log('success:' + JSON.stringify(res));
+							}
+						});
+					}
+				}
+			});
 		},
+		
 		methods: {
 			//用于登陆
 			bindLogin(telnumber, password) {
@@ -91,7 +108,7 @@
 				//登陆空值验证
 				uni.showLoading({
 					title: '登陆中',
-					mask:'true'
+					mask: 'true'
 				});
 				uni.request({
 					// url: 'http://127.0.0.1:8080/user/login',
@@ -103,7 +120,7 @@
 					},
 					success: (res) => {
 						console.log(res.data);
-						if (res.data.ID==0) {
+						if (res.data.ID == 0) {
 							uni.hideLoading();
 							uni.showToast({
 								icon: 'none',
@@ -112,10 +129,10 @@
 							return;
 						}
 						uni.setStorageSync('ID', res.data.ID);
-						uni.setStorageSync('telnumber',telnumber);
-						uni.setStorageSync('password',password);
-						uni.setStorageSync('username',res.data.username);
-						uni.setStorageSync('studentid',res.data.studentid);
+						uni.setStorageSync('telnumber', telnumber);
+						uni.setStorageSync('password', password);
+						uni.setStorageSync('username', res.data.username);
+						uni.setStorageSync('studentid', res.data.studentid);
 						uni.hideLoading();
 						uni.reLaunch({
 							url: '../index/index'
