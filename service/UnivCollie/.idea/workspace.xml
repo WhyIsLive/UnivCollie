@@ -3,41 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8354e2b3-8df6-4a31-b885-85c84e211b76" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/common/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/common/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/common/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/common/vendor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/index/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/index/index.vue.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/index/index.vue.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/index/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/login/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/login/login.vue.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/login/login.vue.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/login/login.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/login/login.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/register/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/register/register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/register/register.vue.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/register/register.vue.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/register/register.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/register/register.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/userinfor/userinfor.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/userinfor/userinfor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/userinfor/userinfor.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/userinfor/userinfor.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/userinfor/userinfor.vue.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/userinfor/userinfor.vue.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/userinfor/userinfor.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/userinfor/userinfor.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/userinfor/userinfor.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/pages/userinfor/userinfor.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/static/dog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/static/dogselect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/static/dulin-setting/account.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/static/dulin-setting/head.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/static/dulin-setting/right-arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/.tmp/app-plus/static/dulin-setting/right-arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/app-plus/__uniappservice.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/app-plus/__uniappservice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/app-plus/__uniappview.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/app-plus/__uniappview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/app-plus/app-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/app-plus/app-service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/app-plus/app-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/app-plus/app-view.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/app-plus/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/app-plus/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/app-plus/pages/userinfor/userinfor.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/app-plus/pages/userinfor/userinfor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/app-plus/static/dog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/app-plus/static/dogselect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/app-plus/static/dulin-setting/account.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/app-plus/static/dulin-setting/head.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/app-plus/static/dulin-setting/right-arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/build/app-plus/static/dulin-setting/right-arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/mp-weixin" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/mp-weixin" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,11 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/univcollie/zjl/univcollie.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
               <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -63,6 +38,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -71,9 +53,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1875" />
-    <option name="y" value="36" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2057" />
+    <option name="y" value="309" />
     <option name="width" value="1440" />
     <option name="height" value="781" />
   </component>
@@ -85,7 +67,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,6 +105,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -181,16 +163,18 @@
       <updated>1552530472133</updated>
       <workItem from="1552530473663" duration="461000" />
       <workItem from="1552531790806" duration="2278000" />
+      <workItem from="1552613702390" duration="437000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2739000" />
+    <option name="totallyTimeSpent" value="3176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1553" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23442733" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16008037" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -233,6 +217,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
         </state>
       </provider>
     </entry>

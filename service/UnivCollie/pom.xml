@@ -68,10 +68,12 @@
       <version>5.1.5.RELEASE</version>
       <scope>compile</scope>
     </dependency>
+
+      <!--Json————fastjson依赖包-->
       <dependency>
           <groupId>com.alibaba</groupId>
           <artifactId>fastjson</artifactId>
-          <version>1.2.6</version>
+          <version>1.2.31</version>
           <scope>compile</scope>
       </dependency>
 
