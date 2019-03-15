@@ -1,4 +1,17 @@
 {
   "navigationBarTitleText": "Personal Center",
-  "enablePullDownRefresh": true
+  "enablePullDownRefresh": true,
+  "navigationBarTextStyle": "white",
+  "titleNView": false,
+  "pullToRefresh": {
+    "color": "#ff3333",
+    "style": "default",
+    "height": "7%",
+    "contentdown": {
+      "caption": "下拉刷新..."
+    },
+    "contentrefresh": {
+      "caption": "正在刷新内容..."
+    }
+  }
 }
