@@ -10,7 +10,8 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "INDEX"
+				"navigationBarTitleText": "INDEX",
+				"navigationBarTextStyle": "white"
 			}
 		},
 		{
@@ -24,7 +25,7 @@
 			"style": {
 				"navigationBarTitleText": "Personal Center",
 				"enablePullDownRefresh": true,
-				// "navigationBarBackgroundColor": "#49c8ee",
+				// "navigationBarBackgroundColor": "#f0f2f4",
 				"navigationBarTextStyle": "white",
 				"app-plus": {
 					"titleNView": false,//禁用原生导航栏
@@ -48,8 +49,10 @@
 			"path": "pages/medical/medical",
 			"style": {
 				"navigationBarTitleText": "MEDICL",
+				"navigationBarTextStyle": "white",
+				// "navigationBarBackgroundColor": "#f0f2f4",
 				"app-plus": {
-					// "titleNView": false
+					 "titleNView": false
 					}
 			}
 		}
@@ -58,7 +61,8 @@
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "UnivCollie",
 		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle":"custom"
 	},
 	/*底部导航栏#515151*/
 	"tabBar": {

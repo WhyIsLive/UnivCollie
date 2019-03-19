@@ -46,8 +46,8 @@
 					mask: 'true'
 				});
 				uni.request({
-					// url: 'http://127.0.0.1:8080/user/login',
-					url: 'http://192.168.191.1:8080/user/login',
+					url: 'http://127.0.0.1:8080/user/login',
+					// url: 'http://192.168.191.1:8080/user/login',
 					method: 'POST',
 					data: {
 						telnumber: telnumber,
@@ -70,7 +70,7 @@
 						uni.setStorageSync('password', password);
 						uni.hideLoading();
 						uni.reLaunch({
-							url: '../index/index'
+							url: '../userinfor/userinfor'
 						});
 					},
 					fail: (res) => {
@@ -111,8 +111,8 @@
 					mask: 'true'
 				});
 				uni.request({
-					// url: 'http://127.0.0.1:8080/user/login',
-					url: 'http://192.168.191.1:8080/user/login',
+					url: 'http://127.0.0.1:8080/user/login',
+					// url: 'http://192.168.191.1:8080/user/login',
 					method: 'POST',
 					data: {
 						telnumber: telnumber,
@@ -135,7 +135,7 @@
 						uni.setStorageSync('studentid', res.data.studentid);
 						uni.hideLoading();
 						uni.reLaunch({
-							url: '../index/index'
+							url: '../userinfor/userinfor'
 						});
 					},
 					fail: (res) => {

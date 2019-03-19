@@ -3,7 +3,89 @@
   <component name="ChangeListManager">
     <list default="true" id="8354e2b3-8df6-4a31-b885-85c84e211b76" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.sourcemap/mp-weixin/common/vendor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.sourcemap/mp-weixin/common/vendor.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/univcollie/zjl/Controller/userController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/univcollie/zjl/Controller/userController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/univcollie/zjl/DAO/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/univcollie/zjl/DAO/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/univcollie/zjl/entity/Userinfor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/univcollie/zjl/entity/Userinfor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/univcollie/zjl/services/UserDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/univcollie/zjl/services/UserDo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/univcollie/zjl/services/UserDoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/univcollie/zjl/services/UserDoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/univcollie/zjl/Controller/userController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/univcollie/zjl/Controller/userController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/univcollie/zjl/entity/Userinfor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/univcollie/zjl/entity/Userinfor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/pages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/pages/login/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/pages/login/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/pages/medical/medical.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/pages/medical/medical.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/pages/userinfor/userinfor.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/pages/userinfor/userinfor.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/static/dulin-setting/about.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/static/dulin-setting/doctor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/static/dulin-setting/name.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/static/dulin-setting/out.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/static/dulin-setting/police.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/static/dulin-setting/police2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/static/dulin-setting/set-top-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/static/dulin-setting/set-top-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/static/dulin-setting/student.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/static/dulin-setting/teacher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/static/dulin-setting/tel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/static/dulin-setting/testuser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/static/mediclpage/button1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/static/mediclpage/button2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/static/mediclpage/button3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/static/mediclpage/dabai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/static/mediclpage/dabai2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/static/mediclpage/dabai3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.sourcemap/mp-weixin/pages/login/login.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.sourcemap/mp-weixin/pages/login/login.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.sourcemap/mp-weixin/pages/medical/medical.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.sourcemap/mp-weixin/pages/medical/medical.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.sourcemap/mp-weixin/pages/userinfor/userinfor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.sourcemap/mp-weixin/pages/userinfor/userinfor.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/pages/index/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/pages/index/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/pages/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/pages/login/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/pages/medical/medical.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/pages/medical/medical.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/pages/medical/medical.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/pages/medical/medical.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/pages/medical/medical.vue.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/pages/medical/medical.vue.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/pages/medical/medical.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/pages/medical/medical.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/pages/userinfor/userinfor.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/pages/userinfor/userinfor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/pages/userinfor/userinfor.vue.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/pages/userinfor/userinfor.vue.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/pages/userinfor/userinfor.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/pages/userinfor/userinfor.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/static/dulin-setting/about.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/static/dulin-setting/doctor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/static/dulin-setting/name.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/static/dulin-setting/out.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/static/dulin-setting/police.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/static/dulin-setting/police2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/static/dulin-setting/set-top-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/static/dulin-setting/set-top-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/static/dulin-setting/student.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/static/dulin-setting/teacher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/static/dulin-setting/tel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/static/dulin-setting/testuser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/static/mediclpage/button1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/static/mediclpage/button2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/static/mediclpage/button3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/static/mediclpage/dabai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/static/mediclpage/dabai2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/.tmp/app-plus/static/mediclpage/dabai3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/__uniappservice.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/__uniappservice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/__uniappview.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/__uniappview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/app-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/app-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/app-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/app-view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/pages/medical/medical.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/pages/medical/medical.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/pages/userinfor/userinfor.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/pages/userinfor/userinfor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/static/dulin-setting/about.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/static/dulin-setting/doctor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/static/dulin-setting/name.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/static/dulin-setting/out.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/static/dulin-setting/police.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/static/dulin-setting/police2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/static/dulin-setting/set-top-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/static/dulin-setting/set-top-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/static/dulin-setting/student.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/static/dulin-setting/teacher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/static/dulin-setting/tel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/static/dulin-setting/testuser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/static/mediclpage/button1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/static/mediclpage/button2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/static/mediclpage/button3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/static/mediclpage/dabai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/static/mediclpage/dabai2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/app-plus/static/mediclpage/dabai3.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/mp-weixin" beforeDir="false" afterPath="$PROJECT_DIR$/../../view/UnivCollie/unpackage/dist/dev/mp-weixin" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,11 +106,84 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="73" selection-end-column="40" />
+            <state relative-caret-position="161">
+              <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/univcollie/zjl/Controller/userController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="81" column="51" selection-start-line="81" selection-start-column="44" selection-end-line="81" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/univcollie/zjl/DAO/UserDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="25" column="49" lean-forward="true" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/univcollie/zjl/services/UserDo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/univcollie/zjl/services/UserDoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="66" column="53" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1857#1872#0" expanded="true" />
+                <element signature="e#2413#2428#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/univcollie/zjl/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/univcollie/zjl/entity/Userinfor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -42,6 +197,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/univcollie/zjl/entity/Userinfor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/univcollie/zjl/DAO/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/univcollie/zjl/services/UserDo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/univcollie/zjl/services/UserDoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/univcollie/zjl/Controller/userController.java" />
       </list>
     </option>
   </component>
@@ -53,11 +214,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1996" />
-    <option name="y" value="78" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1960" />
+    <option name="y" value="14" />
     <option name="width" value="1440" />
-    <option name="height" value="781" />
+    <option name="height" value="654" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -67,6 +228,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,12 +263,61 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="zjl" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="UnivCollie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnivCollie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zjl" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UnivCollie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnivCollie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zjl" type="462c0819:PsiDirectoryNode" />
+              <item name="DAO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UnivCollie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnivCollie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zjl" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UnivCollie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnivCollie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zjl" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UnivCollie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnivCollie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UnivCollie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnivCollie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -115,9 +327,10 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552530947702" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552980674720" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -164,16 +377,20 @@
       <workItem from="1552530473663" duration="461000" />
       <workItem from="1552531790806" duration="2278000" />
       <workItem from="1552613702390" duration="2872000" />
+      <workItem from="1552705212293" duration="813000" />
+      <workItem from="1552785767573" duration="1785000" />
+      <workItem from="1552873975736" duration="3944000" />
+      <workItem from="1552960330957" duration="5569000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5611000" />
+    <option name="totallyTimeSpent" value="17722000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1996" y="78" width="1440" height="781" extended-state="0" />
+    <frame x="1912" y="-8" width="1553" height="916" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36086956" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34896183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -183,7 +400,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5347759" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.89258313" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -221,8 +438,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="73" selection-end-column="40" />
+        <state relative-caret-position="161">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/univcollie/zjl/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/univcollie/zjl/entity/Userinfor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/univcollie/zjl/DAO/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="25" column="49" lean-forward="true" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/univcollie/zjl/services/UserDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/univcollie/zjl/services/UserDoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="66" column="53" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1857#1872#0" expanded="true" />
+            <element signature="e#2413#2428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/univcollie/zjl/Controller/userController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="81" column="51" selection-start-line="81" selection-start-column="44" selection-end-line="81" selection-end-column="51" />
         </state>
       </provider>
     </entry>

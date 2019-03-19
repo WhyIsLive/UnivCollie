@@ -51,7 +51,7 @@
 	margin-left: 100rpx;
 	width: 120rpx;
 	height: 120rpx;
-	border: 10rpx solid #a4f4f6;
+	border: 6rpx solid #F1F2F3;
 	border-radius: 150rpx;
 	overflow: hidden;
 }
@@ -159,7 +159,7 @@
 .cell4.data-v-1835ef96,
 .cell5.data-v-1835ef96 {
 	width: 74%;
-	margin-left: 21%;
+	margin-left: 15%;
 }
 .cell.data-v-1835ef96 {
 	display: -webkit-box;
@@ -170,8 +170,8 @@
 	-webkit-align-items: center;
 	    -ms-flex-align: center;
 	        align-items: center;
-	border-top: 1px solid #ccc;
-	height: 100rpx;
+	/* border-bottom: 1px solid #ccc; */
+	height: 80rpx;
 	align-items: center;
 	-webkit-box-pack: justify;
 	-webkit-justify-content: space-between;
@@ -180,11 +180,11 @@
 	margin-top: 0rpx;
 }
 .cell.data-v-1835ef96:active {
-	background-color: #def5f9;
-	color: #3ec9dd;
-	-webkit-box-shadow: 1rpx 1rpx 35rpx #ccc;
-	        box-shadow: 1rpx 1rpx 35rpx #ccc;
-	border-radius: 10px;
+	background-color: #def5f2;
+	color: #66dad9;
+	-webkit-box-shadow: 1rpx 1rpx 25rpx #ccc;
+	        box-shadow: 1rpx 1rpx 25rpx #ccc;
+	border-radius: 5px;
 }
 .cell-left.data-v-1835ef96 {
 	display: -webkit-box;
@@ -205,8 +205,8 @@
 	height: 28rpx;
 }
 .cell_icon.data-v-1835ef96 {
-	width: 55rpx;
-	height: 55rpx;
+	width: 20rpx;
+	height: 20rpx;
 }
 .right-arrow.data-v-1835ef96 {
 	color: #aaa;

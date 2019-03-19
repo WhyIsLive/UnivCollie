@@ -68,6 +68,7 @@ public class userController {
         jsonParam.put("safetyindex",infor_result.getSafetyindex());
         jsonParam.put("allergylog",infor_result.getAllergylog());
         jsonParam.put("medicationlog",infor_result.getMedicationlog());
+        jsonParam.put("illog",infor_result.getIllog());
         jsonParam.put("secname",infor_result.getSecname());
         jsonParam.put("sectel",infor_result.getSectel());
         jsonParam.put("securitytel",infor_result.getSecuritytel());
@@ -75,5 +76,12 @@ public class userController {
         jsonParam.put("begintime",infor_result.getSecuritytel());
         jsonParam.put("overtime",infor_result.getMatterstel());
         return jsonParam;
+    }
+
+    @RequestMapping("/uddis")
+    public int userDis(String field, String content, int id,HashMap<String, String> map) {
+        int result=0;
+        result=userDo.updataDis(field,content,id);
+        return result;
     }
 }

@@ -10,8 +10,21 @@ public class Userinfor {
     private int safetyindex;
     private String allergylog;
     private String medicationlog;
+    private String illog;
     private String secname;
     private String sectel;
+    private String securitytel;
+    private String matterstel;
+    private String bigintime;
+    private String overtime;
+
+    public String getIllog() {
+        return illog;
+    }
+
+    public void setIllog(String illog) {
+        this.illog = illog;
+    }
 
     public String getBigintime() {
         return bigintime;
@@ -28,11 +41,6 @@ public class Userinfor {
     public void setOvertime(String overtime) {
         this.overtime = overtime;
     }
-
-    private String securitytel;
-    private String matterstel;
-    private String bigintime;
-    private String overtime;
 
     public String getSecuritytel() {
         return securitytel;

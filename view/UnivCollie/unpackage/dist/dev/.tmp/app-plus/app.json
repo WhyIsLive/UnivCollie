@@ -11,7 +11,8 @@
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "UnivCollie",
     "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
   },
   "usingComponents": {},
   "tabBar": {

@@ -3,7 +3,7 @@
 		<image class="top_back_img" src="../../static/dulin-setting/set-top-bg.png" mode="aspectFit"></image>
 		<view class="top">
 			<view class="circle">
-				<image class="head" src="../../static/dulin-setting/testuser.png" mode="widthFix"></image>
+				<image class="head" src="../../static/dulin-setting/testuser.jpg" mode="widthFix"></image>
 			</view>
 			<view class="top-texts">
 				<text class="name">{{username}}</text>
@@ -40,7 +40,7 @@
 		<view class="index">
 			<view id="c1" class="cell" @click="changeGray;realContent($event)">
 				<view class="cell-left">
-					<image class="cell_icon" src="../../static/dulin-setting/teacher.png"></image>
+					<image class="cell_icon" src="../../static/dulin-setting/link.png"></image>
 					<text class="cell-text">辅导员</text>
 				</view>
 				<view class="cell-right">
@@ -49,15 +49,15 @@
 			</view>
 
 			<view class="cell1" v-if="showPrise1">
-				<image class="cell_icon" src="../../static/dulin-setting/name.png"></image>
+				<image class="cell_icon" src="../../static/dulin-setting/link.png"></image>
 				<text class="content">辅导员:{{teacher_name}}</text></br>
-				<image class="cell_icon" src="../../static/dulin-setting/tel.png"></image>
+				<image class="cell_icon" src="../../static/dulin-setting/link.png"></image>
 				<text class="content"> 联系号码:{{teacher_tel}}</text>
 			</view>
 
 			<view id="c2" class="cell" @click="changeGray;realContent($event)">
 				<view class="cell-left">
-					<image class="cell_icon" src="../../static/dulin-setting/student.png"></image>
+					<image class="cell_icon" src="../../static/dulin-setting/link1.png"></image>
 					<text class="cell-text">安全员</text>
 				</view>
 				<view class="cell-right">
@@ -65,15 +65,15 @@
 				</view>
 			</view>
 			<view class="cell2" v-if="showPrise2">
-				<image class="cell_icon" src="../../static/dulin-setting/name.png"></image>
+				<image class="cell_icon" src="../../static/dulin-setting/link1.png"></image>
 				<text class="content">安全员:{{fre_name}} </text></br>
-				<image class="cell_icon" src="../../static/dulin-setting/tel.png"></image>
+				<image class="cell_icon" src="../../static/dulin-setting/link1.png"></image>
 				<text class="content">联系号码:{{fre_tel}}</text>
 			</view>
 
 			<view id="c3" class="cell" @click="changeGray;realContent($event)">
 				<view class="cell-left">
-					<image class="cell_icon" src="../../static/dulin-setting/police2.png"></image>
+					<image class="cell_icon" src="../../static/dulin-setting/link2.png"></image>
 					<text class="cell-text">安保部</text>
 				</view>
 				<view class="cell-right">
@@ -81,13 +81,13 @@
 				</view>
 			</view>
 			<view class="cell3" v-if="showPrise3">
-				<image class="cell_icon" src="../../static/dulin-setting/tel.png"></image>
+				<image class="cell_icon" src="../../static/dulin-setting/link2.png"></image>
 				<text class="content">联系号码:{{pol_tel}}</text>
 			</view>
 
 			<view id="c4" class="cell" @click="changeGray;realContent($event)">
 				<view class="cell-left">
-					<image class="cell_icon" src="../../static/dulin-setting/doctor.png"></image>
+					<image class="cell_icon" src="../../static/dulin-setting/link3.png"></image>
 					<text class="cell-text">校医院</text>
 				</view>
 				<view class="cell-right">
@@ -95,14 +95,14 @@
 				</view>
 			</view>
 			<view class="cell4" v-if="showPrise4">
-				<image class="cell_icon" src="../../static/dulin-setting/tel.png"></image>
+				<image class="cell_icon" src="../../static/dulin-setting/link3.png"></image>
 				<text class="content">联系号码:{{doc_tel}}</text>
 			</view>
 
 
 			<view id="c5" class="cell" @click="changeGray;realContent($event)">
 				<view class="cell-left">
-					<image class="cell_icon" src="../../static/dulin-setting/about.png"></image>
+					<image class="cell_icon" src="../../static/dulin-setting/link4.png"></image>
 					<text class="cell-text">关于</text>
 				</view>
 				<view class="cell-right">
@@ -115,7 +115,7 @@
 
 			<view class="cell" @click="changeGray;logout()">
 				<view class="cell-left">
-					<image class="cell_icon" src="../../static/dulin-setting/out.png"></image>
+					<image class="cell_icon" src="../../static/dulin-setting/link.png"></image>
 					<text class="cell-text">退出登录</text>
 				</view>
 				<view class="cell-right">
@@ -156,8 +156,8 @@
 			this.telnumber = uni.getStorageSync("telnumber");
 			this.id = uni.getStorageSync("ID");
 			uni.request({
-				// url: 'http://127.0.0.1:8080/user/infor',
-				url: 'http://192.168.191.1:8080/user/infor',
+				url: 'http://127.0.0.1:8080/user/infor',
+				// url: 'http://192.168.191.1:8080/user/infor',
 				data: {
 					id: uni.getStorageSync("ID")
 				},
@@ -171,6 +171,11 @@
 					this.fre_tel = res.data.sectel;
 					this.pol_tel = res.data.securitytel;
 					this.doc_tel = res.data.matterstel;
+					uni.setStorageSync('allergylog', res.data.allergylog);
+					uni.setStorageSync('medicationlog', res.data.medicationlog);
+					uni.setStorageSync('illog', res.data.illog);
+					uni.setStorageSync('begintime', res.data.begintime);
+					uni.setStorageSync('overtime', res.data.overtime);
 				},
 				fail: (res) => {
 					uni.showToast({
@@ -183,8 +188,8 @@
 		onPullDownRefresh() {
 			console.log('refresh');
 			uni.request({
-				// url: 'http://127.0.0.1:8080/user/infor',
-				url: 'http://192.168.191.1:8080/user/infor',
+				url: 'http://127.0.0.1:8080/user/infor',
+				// url: 'http://192.168.191.1:8080/user/infor',
 				data: {
 					id: uni.getStorageSync("ID")
 				},
@@ -198,6 +203,11 @@
 					this.fre_tel = res.data.sectel;
 					this.pol_tel = res.data.securitytel;
 					this.doc_tel = res.data.matterstel;
+					uni.setStorageSync('allergylog', res.data.allergylog);
+					uni.setStorageSync('medicationlog', res.data.medicationlog);
+					uni.setStorageSync('illog', res.data.illog);
+					uni.setStorageSync('begintime', res.data.begintime);
+					uni.setStorageSync('overtime', res.data.overtime);
 					uni.stopPullDownRefresh();
 				},
 				fail: (res) => {
@@ -287,7 +297,7 @@
 		margin-left: 100upx;
 		width: 120upx;
 		height: 120upx;
-		border: 10upx solid #a4f4f6;
+		border: 6upx solid #F1F2F3;
 		border-radius: 150upx;
 		overflow: hidden;
 	}
@@ -376,24 +386,24 @@
 	.cell4,
 	.cell5 {
 		width: 74%;
-		margin-left: 21%;
+		margin-left: 15%;
 	}
 
 	.cell {
 		display: flex;
 		align-items: center;
-		border-top: 1px solid #ccc;
-		height: 100upx;
+		/* border-bottom: 1px solid #ccc; */
+		height: 80upx;
 		align-items: center;
 		justify-content: space-between;
 		margin-top: 0upx;
 	}
 
 	.cell:active {
-		background-color: #def5f9;
-		color: #3ec9dd;
-		box-shadow: 1upx 1upx 35upx #ccc;
-		border-radius: 10px;
+		background-color: #def5f2;
+		color: #66dad9;
+		box-shadow: 1upx 1upx 25upx #ccc;
+		border-radius: 5px;
 	}
 
 	.cell-left {
@@ -412,8 +422,8 @@
 	}
 
 	.cell_icon {
-		width: 55upx;
-		height: 55upx;
+		width: 20upx;
+		height: 20upx;
 	}
 
 	.right-arrow {

@@ -23,4 +23,14 @@
         INSERT INTO dis(illog) VALUES("")
     </insert>
 
+    <update id="updata_allergylog" parameterType="HashMap" keyProperty="ID">
+        UPDATE dis SET allergylog=#{allergylog} WHERE ID = #{ID}
+    </update>
+    <update id="updata_medicationlog" parameterType="HashMap" keyProperty="ID">
+        UPDATE dis SET medicationlog=#{medicationlog} WHERE ID = #{ID}
+    </update>
+    <update id="updata_illog" parameterType="HashMap" keyProperty="ID">
+        UPDATE dis SET illog=#{illog} WHERE ID = #{ID}
+    </update>
+
 </mapper>

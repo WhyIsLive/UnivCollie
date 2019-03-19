@@ -20,4 +20,8 @@ public interface UserDAO {
 //    查找user
     User getUser(HashMap<String,Object> map);
     Userinfor getUserInfor(Integer ID);
+
+    int updata_allergylog(HashMap<String,Object> map);
+    int updata_medicationlog(HashMap<String,Object> map);
+    int updata_illog(HashMap<String,Object> map);
 }

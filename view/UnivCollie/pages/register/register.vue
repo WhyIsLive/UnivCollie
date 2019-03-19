@@ -73,13 +73,13 @@
 					this.button = '获取验证码';
 					return;
 				}
-				uni.showToast({
-					icon: 'loading',
-					title: '请稍后...'
+				uni.showLoading({
+					title: '请稍后...',
+					mask: 'true'
 				});
 				uni.request({
-					// url: 'http://127.0.0.1:8080/user/register',
-					url: 'http://192.168.191.1:8080/user/register',
+					url: 'http://127.0.0.1:8080/user/register',
+					// url: 'http://192.168.191.1:8080/user/register',
 					method: 'POST',
 					data: {
 						telnumber: telnumber,
@@ -92,20 +92,23 @@
 						if (res.data == 'Success') {
 							uni.setStorageSync('telnumber', telnumber);
 							uni.setStorageSync('password', password);
+							uni.hideLoading();
 							uni.reLaunch({
 								url: '../login/login'
 							});
 						} else {
 							if (res.data.length < 20)
-								uni.showToast({
-									icon: 'none',
-									title: res.data
-								});
+								uni.hideLoading();
+							uni.showToast({
+								icon: 'none',
+								title: res.data
+							});
 							if (res.data.length > 20)
-								uni.showToast({
-									icon: 'none',
-									title: '404！请联系管理员'
-								});
+								uni.hideLoading();
+							uni.showToast({
+								icon: 'none',
+								title: '404！请联系管理员'
+							});
 						}
 					}
 				});

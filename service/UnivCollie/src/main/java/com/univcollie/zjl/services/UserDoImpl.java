@@ -15,7 +15,7 @@ public class UserDoImpl implements UserDo{
     @Autowired
     private UserDAO userDAO;
 
-    //    插入一条用户记录 插入前的主键验证：防止ID主见递增
+    //    插入一条用户记录 插入前的主键验证：防止ID主键递增
     public int checkupKey(String telnumber,String studentid){
         HashMap<String,Object> map = new HashMap<String,Object>();
         map.put("telnumber",telnumber);
@@ -60,5 +60,28 @@ public class UserDoImpl implements UserDo{
     public Userinfor selectUserInfor(int id) {
         Userinfor userinfor=userDAO.getUserInfor(id);
         return userinfor;
+    }
+
+//    用户更新电子病例
+    @Override
+    public int updataDis(String field, String content, int id) {
+        int result=0;
+        HashMap<String,Object> map=new HashMap<String,Object>();
+        map.put("ID",id);
+        switch (field){
+            case "allergylog":
+                map.put("allergylog",content);
+                result = userDAO.updata_allergylog(map);
+                return result;
+            case "medicationlog":
+                map.put("medicationlog",content);
+                result = userDAO.updata_medicationlog(map);
+                return result;
+            case "illog":
+                map.put("illog",content);
+                result = userDAO.updata_illog(map);
+                return result;
+        }
+        return 0;
     }
 }
