@@ -1,0 +1,2 @@
+<import src="./medical.vue.wxml" />
+    <template is="29bfddc5" data="{{ ...$root['0'], $root }}"/>
