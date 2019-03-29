@@ -86,7 +86,10 @@
 			showallergy: false,
 			showmedication: false,
 			showillog: false,
-			upcontent:""
+			upcontent:"",
+			button_type: 0 ,//按钮的点击次数
+			longitude:0,//经度
+			latitude:0//纬度
 		},
 		onLoad: function() {
 			this.id = uni.getStorageSync("ID");
@@ -97,10 +100,36 @@
 		methods: {
 			buttonReq() {
 				// 震动
+				this.button_type++;
 				uni.vibrateLong();
-				uni.makePhoneCall({
-					phoneNumber: '18313023631' //仅为示例.
+				if(this.button_type>=3){
+					//获取当前位置
+					uni.getLocation({
+						type: this.locationtype,
+						success: function (res) {
+						console.log('当前位置的经度：' + res.longitude);
+						console.log('当前位置的纬度：' + res.latitude);
+						this.longitude=res.longitude;
+						this.latitude=res.latitude;
+						}
+					});
+					//发送医疗求助信号
+				uni.request({
+					url: 'http://127.0.0.1:8080/sos/medical',
+					// url: 'http://192.168.191.1:8080/user/login',
+					data: {
+						id: uni.getStorageSync("ID"),
+						location: this.longitude+"#"+this.latitude,
+						stuname: uni.getStorageSync("username"),
+						stutel: uni.getStorageSync("telnumber"),
+						illog: "药物过敏史："+this.allergy+"#"+"常用药："+this.medication+"#"+"疾病史："+this.illog
+					}
 				});
+				uni.makePhoneCall({
+					phoneNumber: uni.getStorageSync("matterstel") 
+				});
+				this.button_type=0;
+				}
 			},
 			modeify(e){
 				switch(e.currentTarget.id){
@@ -128,9 +157,9 @@
 				}
 			},
 			upddis(e){
-				uni.showToast({
-					icon: 'loading',
-					title: '请稍后...'
+				uni.showLoading({
+					title: '请稍后...',
+					mask: false
 				});
 				switch(e.currentTarget.id){
 					case 'allergylog':
@@ -143,6 +172,7 @@
 						this.upcontent=this.illog2;
 						break;
 				};
+				
 				uni.request({
 					url: 'http://127.0.0.1:8080/user/uddis',
 					// url: 'http://192.168.191.1:8080/user/infor',

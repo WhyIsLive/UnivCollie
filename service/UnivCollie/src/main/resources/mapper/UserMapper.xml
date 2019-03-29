@@ -8,11 +8,13 @@
     <select id="getUserInfor" parameterType="java.lang.Integer" resultType="com.univcollie.zjl.entity.Userinfor">
         SELECT * FROM `userinfo` where ID=#{ID}
     </select>
-
-
+    <select id="getMaxID" resultType="java.lang.Integer">
+        SELECT count(ID) FROM `user`
+    </select>
     <select id="checkupKey" parameterType="HashMap" resultType="java.lang.Integer">
         SELECT id FROM user WHERE telnumber=#{telnumber} or studentid= #{studentid}
     </select>
+
     <insert id="insertUser" parameterType="HashMap" useGeneratedKeys="true" keyProperty="ID">
         INSERT INTO user(username,password,telnumber,studentid,age,sex,identity,classname,safetyindex) VALUES(#{username},#{password},#{telnumber},#{studentid},#{age},#{sex},#{identity},#{classname},#{safetyindex})
     </insert>
@@ -34,3 +36,5 @@
     </update>
 
 </mapper>
+
+

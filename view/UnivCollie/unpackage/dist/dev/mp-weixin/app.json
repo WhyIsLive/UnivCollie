@@ -4,7 +4,8 @@
     "pages/index/index",
     "pages/register/register",
     "pages/userinfor/userinfor",
-    "pages/medical/medical"
+    "pages/medical/medical",
+    "pages/policepage/policepage"
   ],
   "subPackages": [],
   "window": {
@@ -24,7 +25,7 @@
         "text": "安全记录"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/policepage/policepage",
         "iconPath": "static/bottom/police.png",
         "selectedIconPath": "static/bottom/police1.png",
         "text": "警务求助"

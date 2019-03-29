@@ -97,18 +97,20 @@
 								url: '../login/login'
 							});
 						} else {
-							if (res.data.length < 20)
+							if (res.data.length < 20) {
 								uni.hideLoading();
-							uni.showToast({
-								icon: 'none',
-								title: res.data
-							});
-							if (res.data.length > 20)
+								uni.showToast({
+									icon: 'none',
+									title: res.data
+								});
+							}
+							if (res.data.length > 20) {
 								uni.hideLoading();
-							uni.showToast({
-								icon: 'none',
-								title: '404！请联系管理员'
-							});
+								uni.showToast({
+									icon: 'none',
+									title: '404！请联系管理员'
+								});
+							}
 						}
 					}
 				});

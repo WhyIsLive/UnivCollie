@@ -56,7 +56,18 @@
 					}
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/policepage/policepage",
+            "style" : {
+					"navigationBarTitleText": "MEDICL",
+					"navigationBarTextStyle": "white",
+					// "navigationBarBackgroundColor": "#f0f2f4",
+					"app-plus": {
+						 "titleNView": false
+						}
+			}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "UnivCollie",
@@ -73,7 +84,7 @@
 				"text": "安全记录"
 			},
 			{
-				"pagePath": "pages/index/index",
+				"pagePath": "pages/policepage/policepage",
 				"iconPath": "static/bottom/police.png",
 				"selectedIconPath": "static/bottom/police1.png",
 				"text": "警务求助"

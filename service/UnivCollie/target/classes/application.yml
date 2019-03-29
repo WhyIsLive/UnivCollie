@@ -1,5 +1,11 @@
-#配置数据源
+
 spring:
+  thymeleaf:
+    mode: HTML5
+    encoding: UTF-8
+    #开发时关闭缓存,不然没法看到实时页面
+    cache: false
+  #配置数据源
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/univcollie?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=false&characterEncoding=utf8
     username: root
@@ -49,3 +55,6 @@ spring:
 #指定mybatis映射文件的地址
 mybatis:
   mapper-locations: classpath:mapper/*.xml
+
+#thymeleaf start
+

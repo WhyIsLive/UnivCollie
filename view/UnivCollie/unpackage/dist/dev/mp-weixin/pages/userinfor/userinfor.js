@@ -186,6 +186,8 @@
         uni.setStorageSync('illog', res.data.illog);
         uni.setStorageSync('begintime', res.data.begintime);
         uni.setStorageSync('overtime', res.data.overtime);
+        uni.setStorageSync('matterstel', res.data.matterstel);
+        uni.setStorageSync('pol_tel', res.data.securitytel);
       },
       fail: function fail(res) {
         uni.showToast({
@@ -218,6 +220,8 @@
         uni.setStorageSync('illog', res.data.illog);
         uni.setStorageSync('begintime', res.data.begintime);
         uni.setStorageSync('overtime', res.data.overtime);
+        uni.setStorageSync('matterstel', res.data.matterstel);
+        uni.setStorageSync('pol_tel', res.data.securitytel);
         uni.stopPullDownRefresh();
       },
       fail: function fail(res) {

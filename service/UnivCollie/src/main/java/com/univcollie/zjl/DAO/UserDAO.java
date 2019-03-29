@@ -12,7 +12,7 @@ import java.util.HashMap;
 @Mapper
 public interface UserDAO {
 //    插入user
-    Integer checkupKey(HashMap<String,Object> map);
+    Integer[] checkupKey(HashMap<String,Object> map);
     int insertUser(HashMap<String,Object> map);
     int insertUser_punch();
     int insertUser_dis();
@@ -21,7 +21,11 @@ public interface UserDAO {
     User getUser(HashMap<String,Object> map);
     Userinfor getUserInfor(Integer ID);
 
+//    更新user病例表
     int updata_allergylog(HashMap<String,Object> map);
     int updata_medicationlog(HashMap<String,Object> map);
     int updata_illog(HashMap<String,Object> map);
+
+    //获得user总数
+    int getMaxID();
 }

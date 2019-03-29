@@ -1170,7 +1170,7 @@ Z([[7],[3,'showallergy']])
 Z([3,'handleProxy'])
 Z([3,'_view data-v-44027ba5 input-row'])
 Z([[7],[3,'$k']])
-Z([1,'29bfddc5-2'])
+Z([1,'29bfddc5-3'])
 Z([3,'_view data-v-44027ba5 b-window'])
 Z([3,'_text data-v-44027ba5 tc-title'])
 Z([3,'药物过敏史：'])
@@ -1181,20 +1181,24 @@ Z(z[8])
 Z([1,'29bfddc5-0'])
 Z([3,'120'])
 Z([[7],[3,'allergy2']])
+Z(z[6])
 Z([3,'_text data-v-44027ba5 b-but1'])
+Z(z[8])
+Z([1,'29bfddc5-1'])
+Z([3,'allergylog'])
 Z([3,'提  交'])
 Z([3,'_text data-v-44027ba5 line'])
 Z(z[6])
 Z([3,'_text data-v-44027ba5 b-but2'])
 Z(z[8])
-Z([1,'29bfddc5-1'])
+Z([1,'29bfddc5-2'])
 Z([3,'closeallergy'])
 Z([3,'取  消'])
 Z([[7],[3,'showmedication']])
 Z(z[6])
 Z(z[7])
 Z(z[8])
-Z([1,'29bfddc5-5'])
+Z([1,'29bfddc5-7'])
 Z(z[10])
 Z(z[11])
 Z([3,'常用药：'])
@@ -1202,23 +1206,27 @@ Z(z[13])
 Z(z[6])
 Z(z[15])
 Z(z[8])
-Z([1,'29bfddc5-3'])
+Z([1,'29bfddc5-4'])
 Z(z[18])
 Z([[7],[3,'medication2']])
-Z(z[20])
-Z(z[21])
-Z(z[22])
 Z(z[6])
-Z(z[24])
+Z(z[21])
 Z(z[8])
-Z([1,'29bfddc5-4'])
-Z([3,'closemedication'])
+Z([1,'29bfddc5-5'])
+Z([3,'medicationlog'])
+Z(z[25])
+Z(z[26])
+Z(z[6])
 Z(z[28])
+Z(z[8])
+Z([1,'29bfddc5-6'])
+Z([3,'closemedication'])
+Z(z[32])
 Z([[7],[3,'showillog']])
 Z(z[6])
 Z(z[7])
 Z(z[8])
-Z([1,'29bfddc5-8'])
+Z([1,'29bfddc5-11'])
 Z(z[10])
 Z(z[11])
 Z([3,'疾病史：'])
@@ -1226,18 +1234,22 @@ Z(z[13])
 Z(z[6])
 Z(z[15])
 Z(z[8])
-Z([1,'29bfddc5-6'])
+Z([1,'29bfddc5-8'])
 Z(z[18])
 Z([[7],[3,'illog2']])
-Z(z[20])
-Z(z[21])
-Z(z[22])
 Z(z[6])
-Z(z[24])
+Z(z[21])
 Z(z[8])
-Z([1,'29bfddc5-7'])
-Z([3,'closeillog'])
+Z([1,'29bfddc5-9'])
+Z([3,'illog'])
+Z(z[25])
+Z(z[26])
+Z(z[6])
 Z(z[28])
+Z(z[8])
+Z([1,'29bfddc5-10'])
+Z([3,'closeillog'])
+Z(z[32])
 Z([3,'_view data-v-44027ba5 top'])
 Z([3,'_image data-v-44027ba5 top-img'])
 Z([3,'../../static/mediclpage/ling.png'])
@@ -1248,38 +1260,38 @@ Z([3,'true'])
 Z([a,[3,'病例编号：0'],[[7],[3,'id']]])
 Z([3,'_br data-v-44027ba5'])
 Z([a,z[12],[[7],[3,'allergy']]])
-Z(z[85])
-Z([a,z[36],[[7],[3,'medication']]])
-Z(z[85])
-Z([a,z[60],[[7],[3,'illog']]])
-Z(z[85])
+Z(z[97])
+Z([a,z[40],[[7],[3,'medication']]])
+Z(z[97])
+Z([a,z[68],[[7],[3,'illog']]])
+Z(z[97])
 Z([3,'_p data-v-44027ba5'])
 Z([3,'--------------------------------------'])
 Z([3,'注：请点击下方按钮编辑您的病例档案。'])
-Z(z[85])
+Z(z[97])
 Z([3,'此档案用于在您出现突发疾病或意外情况时给救助你的医生提供有效信息，以提高救援的效率。'])
 Z(z[6])
 Z([3,'_image data-v-44027ba5 button-allergy-img'])
 Z(z[8])
-Z([1,'29bfddc5-9'])
+Z([1,'29bfddc5-12'])
 Z([3,'openallergy'])
 Z([3,'../../static/mediclpage/allergylog.png'])
 Z(z[6])
 Z([3,'_image data-v-44027ba5 button-medication-img'])
 Z(z[8])
-Z([1,'29bfddc5-10'])
+Z([1,'29bfddc5-13'])
 Z([3,'openmedication'])
 Z([3,'../../static/mediclpage/medicationlog.png'])
 Z(z[6])
 Z([3,'_image data-v-44027ba5 button-illog-img'])
 Z(z[8])
-Z([1,'29bfddc5-11'])
+Z([1,'29bfddc5-14'])
 Z([3,'openillog'])
 Z([3,'../../static/mediclpage/illog1.png'])
 Z(z[6])
 Z([3,'_image data-v-44027ba5 button-help-img'])
 Z(z[8])
-Z([1,'29bfddc5-12'])
+Z([1,'29bfddc5-15'])
 Z([3,'../../static/mediclpage/button.png'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_6);return __WXML_GLOBAL__.ops_cached.$gwx_6
 }
@@ -1294,6 +1306,35 @@ Z([3,'29bfddc5'])
 function gz$gwx_8(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_8)return __WXML_GLOBAL__.ops_cached.$gwx_8
 __WXML_GLOBAL__.ops_cached.$gwx_8=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'7cc25281'])
+Z([3,'_view 7cc25281 box'])
+Z([3,'_view 7cc25281 broadcast'])
+Z([3,'长按3秒以发出求助信息！'])
+Z([3,'_image 7cc25281 background-img'])
+Z([3,'../../static/mediclpage/bg1.jpg'])
+Z([3,'_map 7cc25281 map1'])
+Z([3,'polmap'])
+Z([[7],[3,'latitude']])
+Z([[7],[3,'longitude']])
+Z([[7],[3,'covers']])
+Z([3,'_image 7cc25281 button1'])
+Z([3,'../../static/policpage/button1.png'])
+Z([3,'_image 7cc25281 button2'])
+Z([3,'../../static/policpage/button2.png'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_8);return __WXML_GLOBAL__.ops_cached.$gwx_8
+}
+function gz$gwx_9(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_9)return __WXML_GLOBAL__.ops_cached.$gwx_9
+__WXML_GLOBAL__.ops_cached.$gwx_9=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'7cc25281'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_9);return __WXML_GLOBAL__.ops_cached.$gwx_9
+}
+function gz$gwx_10(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_10)return __WXML_GLOBAL__.ops_cached.$gwx_10
+__WXML_GLOBAL__.ops_cached.$gwx_10=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'413050c1'])
 Z([3,'_view 413050c1 content'])
@@ -1364,19 +1405,19 @@ Z([3,'_view 413050c1 action-row'])
 Z([3,'_navigator 413050c1'])
 Z([3,'../register/register'])
 Z([3,'用户条款'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_8);return __WXML_GLOBAL__.ops_cached.$gwx_8
+})(__WXML_GLOBAL__.ops_cached.$gwx_10);return __WXML_GLOBAL__.ops_cached.$gwx_10
 }
-function gz$gwx_9(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_9)return __WXML_GLOBAL__.ops_cached.$gwx_9
-__WXML_GLOBAL__.ops_cached.$gwx_9=[];
+function gz$gwx_11(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_11)return __WXML_GLOBAL__.ops_cached.$gwx_11
+__WXML_GLOBAL__.ops_cached.$gwx_11=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'413050c1'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_9);return __WXML_GLOBAL__.ops_cached.$gwx_9
+})(__WXML_GLOBAL__.ops_cached.$gwx_11);return __WXML_GLOBAL__.ops_cached.$gwx_11
 }
-function gz$gwx_10(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_10)return __WXML_GLOBAL__.ops_cached.$gwx_10
-__WXML_GLOBAL__.ops_cached.$gwx_10=[];
+function gz$gwx_12(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_12)return __WXML_GLOBAL__.ops_cached.$gwx_12
+__WXML_GLOBAL__.ops_cached.$gwx_12=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'e93d5356'])
 Z([3,'_div data-v-1835ef96 vbox'])
@@ -1541,21 +1582,21 @@ Z([3,'退出登录'])
 Z(z[58])
 Z(z[59])
 Z(z[60])
-})(__WXML_GLOBAL__.ops_cached.$gwx_10);return __WXML_GLOBAL__.ops_cached.$gwx_10
+})(__WXML_GLOBAL__.ops_cached.$gwx_12);return __WXML_GLOBAL__.ops_cached.$gwx_12
 }
-function gz$gwx_11(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_11)return __WXML_GLOBAL__.ops_cached.$gwx_11
-__WXML_GLOBAL__.ops_cached.$gwx_11=[];
+function gz$gwx_13(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_13)return __WXML_GLOBAL__.ops_cached.$gwx_13
+__WXML_GLOBAL__.ops_cached.$gwx_13=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'e93d5356'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_11);return __WXML_GLOBAL__.ops_cached.$gwx_11
+})(__WXML_GLOBAL__.ops_cached.$gwx_13);return __WXML_GLOBAL__.ops_cached.$gwx_13
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./common/slots.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./index.vue.wxml','./pages/login/login.vue.wxml','./pages/login/login.wxml','./login.vue.wxml','./pages/medical/medical.vue.wxml','./pages/medical/medical.wxml','./medical.vue.wxml','./pages/register/register.vue.wxml','./pages/register/register.wxml','./register.vue.wxml','./pages/userinfor/userinfor.vue.wxml','./pages/userinfor/userinfor.wxml','./userinfor.vue.wxml'];d_[x[0]]={}
+var x=['./common/slots.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./index.vue.wxml','./pages/login/login.vue.wxml','./pages/login/login.wxml','./login.vue.wxml','./pages/medical/medical.vue.wxml','./pages/medical/medical.wxml','./medical.vue.wxml','./pages/policepage/policepage.vue.wxml','./pages/policepage/policepage.wxml','./policepage.vue.wxml','./pages/register/register.vue.wxml','./pages/register/register.wxml','./register.vue.wxml','./pages/userinfor/userinfor.vue.wxml','./pages/userinfor/userinfor.wxml','./userinfor.vue.wxml'];d_[x[0]]={}
 var m0=function(e,s,r,gg){
 var z=gz$gwx_1()
 return r
@@ -1815,20 +1856,19 @@ var aL=_mz(z,'textarea',['adjustPositio',13,'bindinput',1,'class',2,'data-comkey
 cs.pop()
 _(cI,aL)
 cs.push("./pages/medical/medical.vue.wxml:text:1:670")
-var tM=_n('text')
-_rz(z,tM,'class',20,e,s,gg)
-var eN=_oz(z,21,e,s,gg)
+var tM=_mz(z,'text',['bindtap',20,'class',1,'data-comkey',2,'data-eventid',3,'id',4],[],e,s,gg)
+var eN=_oz(z,25,e,s,gg)
 _(tM,eN)
 cs.pop()
 _(cI,tM)
-cs.push("./pages/medical/medical.vue.wxml:text:1:728")
+cs.push("./pages/medical/medical.vue.wxml:text:1:819")
 var bO=_n('text')
-_rz(z,bO,'class',22,e,s,gg)
+_rz(z,bO,'class',26,e,s,gg)
 cs.pop()
 _(cI,bO)
-cs.push("./pages/medical/medical.vue.wxml:text:1:776")
-var oP=_mz(z,'text',['bindtap',23,'class',1,'data-comkey',2,'data-eventid',3,'id',4],[],e,s,gg)
-var xQ=_oz(z,28,e,s,gg)
+cs.push("./pages/medical/medical.vue.wxml:text:1:867")
+var oP=_mz(z,'text',['bindtap',27,'class',1,'data-comkey',2,'data-eventid',3,'id',4],[],e,s,gg)
+var xQ=_oz(z,32,e,s,gg)
 _(oP,xQ)
 cs.pop()
 _(cI,oP)
@@ -1840,39 +1880,38 @@ cs.pop()
 }
 var oD=_v()
 _(oB,oD)
-if(_oz(z,29,e,s,gg)){oD.wxVkey=1
-cs.push("./pages/medical/medical.vue.wxml:view:1:941")
-cs.push("./pages/medical/medical.vue.wxml:view:1:941")
-var oR=_mz(z,'view',['catchtouchmove',30,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
-cs.push("./pages/medical/medical.vue.wxml:view:1:1096")
+if(_oz(z,33,e,s,gg)){oD.wxVkey=1
+cs.push("./pages/medical/medical.vue.wxml:view:1:1032")
+cs.push("./pages/medical/medical.vue.wxml:view:1:1032")
+var oR=_mz(z,'view',['catchtouchmove',34,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
+cs.push("./pages/medical/medical.vue.wxml:view:1:1187")
 var fS=_n('view')
-_rz(z,fS,'class',34,e,s,gg)
-cs.push("./pages/medical/medical.vue.wxml:text:1:1141")
+_rz(z,fS,'class',38,e,s,gg)
+cs.push("./pages/medical/medical.vue.wxml:text:1:1232")
 var cT=_n('text')
-_rz(z,cT,'class',35,e,s,gg)
-var hU=_oz(z,36,e,s,gg)
+_rz(z,cT,'class',39,e,s,gg)
+var hU=_oz(z,40,e,s,gg)
 _(cT,hU)
 cs.pop()
 _(fS,cT)
-cs.push("./pages/medical/medical.vue.wxml:textarea:1:1205")
-var oV=_mz(z,'textarea',['adjustPositio',37,'bindinput',1,'class',2,'data-comkey',3,'data-eventid',4,'maxlength',5,'value',6],[],e,s,gg)
+cs.push("./pages/medical/medical.vue.wxml:textarea:1:1296")
+var oV=_mz(z,'textarea',['adjustPositio',41,'bindinput',1,'class',2,'data-comkey',3,'data-eventid',4,'maxlength',5,'value',6],[],e,s,gg)
 cs.pop()
 _(fS,oV)
-cs.push("./pages/medical/medical.vue.wxml:text:1:1391")
-var cW=_n('text')
-_rz(z,cW,'class',44,e,s,gg)
-var oX=_oz(z,45,e,s,gg)
+cs.push("./pages/medical/medical.vue.wxml:text:1:1482")
+var cW=_mz(z,'text',['bindtap',48,'class',1,'data-comkey',2,'data-eventid',3,'id',4],[],e,s,gg)
+var oX=_oz(z,53,e,s,gg)
 _(cW,oX)
 cs.pop()
 _(fS,cW)
-cs.push("./pages/medical/medical.vue.wxml:text:1:1449")
+cs.push("./pages/medical/medical.vue.wxml:text:1:1634")
 var lY=_n('text')
-_rz(z,lY,'class',46,e,s,gg)
+_rz(z,lY,'class',54,e,s,gg)
 cs.pop()
 _(fS,lY)
-cs.push("./pages/medical/medical.vue.wxml:text:1:1497")
-var aZ=_mz(z,'text',['bindtap',47,'class',1,'data-comkey',2,'data-eventid',3,'id',4],[],e,s,gg)
-var t1=_oz(z,52,e,s,gg)
+cs.push("./pages/medical/medical.vue.wxml:text:1:1682")
+var aZ=_mz(z,'text',['bindtap',55,'class',1,'data-comkey',2,'data-eventid',3,'id',4],[],e,s,gg)
+var t1=_oz(z,60,e,s,gg)
 _(aZ,t1)
 cs.pop()
 _(fS,aZ)
@@ -1884,39 +1923,38 @@ cs.pop()
 }
 var fE=_v()
 _(oB,fE)
-if(_oz(z,53,e,s,gg)){fE.wxVkey=1
-cs.push("./pages/medical/medical.vue.wxml:view:1:1665")
-cs.push("./pages/medical/medical.vue.wxml:view:1:1665")
-var e2=_mz(z,'view',['catchtouchmove',54,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
-cs.push("./pages/medical/medical.vue.wxml:view:1:1815")
+if(_oz(z,61,e,s,gg)){fE.wxVkey=1
+cs.push("./pages/medical/medical.vue.wxml:view:1:1850")
+cs.push("./pages/medical/medical.vue.wxml:view:1:1850")
+var e2=_mz(z,'view',['catchtouchmove',62,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
+cs.push("./pages/medical/medical.vue.wxml:view:1:2001")
 var b3=_n('view')
-_rz(z,b3,'class',58,e,s,gg)
-cs.push("./pages/medical/medical.vue.wxml:text:1:1860")
+_rz(z,b3,'class',66,e,s,gg)
+cs.push("./pages/medical/medical.vue.wxml:text:1:2046")
 var o4=_n('text')
-_rz(z,o4,'class',59,e,s,gg)
-var x5=_oz(z,60,e,s,gg)
+_rz(z,o4,'class',67,e,s,gg)
+var x5=_oz(z,68,e,s,gg)
 _(o4,x5)
 cs.pop()
 _(b3,o4)
-cs.push("./pages/medical/medical.vue.wxml:textarea:1:1924")
-var o6=_mz(z,'textarea',['adjustPositio',61,'bindinput',1,'class',2,'data-comkey',3,'data-eventid',4,'maxlength',5,'value',6],[],e,s,gg)
+cs.push("./pages/medical/medical.vue.wxml:textarea:1:2110")
+var o6=_mz(z,'textarea',['adjustPositio',69,'bindinput',1,'class',2,'data-comkey',3,'data-eventid',4,'maxlength',5,'value',6],[],e,s,gg)
 cs.pop()
 _(b3,o6)
-cs.push("./pages/medical/medical.vue.wxml:text:1:2105")
-var f7=_n('text')
-_rz(z,f7,'class',68,e,s,gg)
-var c8=_oz(z,69,e,s,gg)
+cs.push("./pages/medical/medical.vue.wxml:text:1:2291")
+var f7=_mz(z,'text',['bindtap',76,'class',1,'data-comkey',2,'data-eventid',3,'id',4],[],e,s,gg)
+var c8=_oz(z,81,e,s,gg)
 _(f7,c8)
 cs.pop()
 _(b3,f7)
-cs.push("./pages/medical/medical.vue.wxml:text:1:2163")
+cs.push("./pages/medical/medical.vue.wxml:text:1:2435")
 var h9=_n('text')
-_rz(z,h9,'class',70,e,s,gg)
+_rz(z,h9,'class',82,e,s,gg)
 cs.pop()
 _(b3,h9)
-cs.push("./pages/medical/medical.vue.wxml:text:1:2211")
-var o0=_mz(z,'text',['bindtap',71,'class',1,'data-comkey',2,'data-eventid',3,'id',4],[],e,s,gg)
-var cAB=_oz(z,76,e,s,gg)
+cs.push("./pages/medical/medical.vue.wxml:text:1:2483")
+var o0=_mz(z,'text',['bindtap',83,'class',1,'data-comkey',2,'data-eventid',3,'id',4],[],e,s,gg)
+var cAB=_oz(z,88,e,s,gg)
 _(o0,cAB)
 cs.pop()
 _(b3,o0)
@@ -1926,82 +1964,82 @@ cs.pop()
 _(fE,e2)
 cs.pop()
 }
-cs.push("./pages/medical/medical.vue.wxml:view:1:2374")
+cs.push("./pages/medical/medical.vue.wxml:view:1:2647")
 var oBB=_n('view')
-_rz(z,oBB,'class',77,e,s,gg)
-cs.push("./pages/medical/medical.vue.wxml:image:1:2414")
-var lCB=_mz(z,'image',['class',78,'src',1],[],e,s,gg)
+_rz(z,oBB,'class',89,e,s,gg)
+cs.push("./pages/medical/medical.vue.wxml:image:1:2687")
+var lCB=_mz(z,'image',['class',90,'src',1],[],e,s,gg)
 cs.pop()
 _(oBB,lCB)
-cs.push("./pages/medical/medical.vue.wxml:view:1:2507")
+cs.push("./pages/medical/medical.vue.wxml:view:1:2780")
 var aDB=_n('view')
-_rz(z,aDB,'class',80,e,s,gg)
-var tEB=_oz(z,81,e,s,gg)
+_rz(z,aDB,'class',92,e,s,gg)
+var tEB=_oz(z,93,e,s,gg)
 _(aDB,tEB)
 cs.pop()
 _(oBB,aDB)
-cs.push("./pages/medical/medical.vue.wxml:scroll-view:1:2572")
-var eFB=_mz(z,'scroll-view',['class',82,'scrollY',1],[],e,s,gg)
-var bGB=_oz(z,84,e,s,gg)
+cs.push("./pages/medical/medical.vue.wxml:scroll-view:1:2845")
+var eFB=_mz(z,'scroll-view',['class',94,'scrollY',1],[],e,s,gg)
+var bGB=_oz(z,96,e,s,gg)
 _(eFB,bGB)
-cs.push("./pages/medical/medical.vue.wxml:view:1:2670")
+cs.push("./pages/medical/medical.vue.wxml:view:1:2943")
 var oHB=_n('view')
-_rz(z,oHB,'class',85,e,s,gg)
+_rz(z,oHB,'class',97,e,s,gg)
 cs.pop()
 _(eFB,oHB)
-var xIB=_oz(z,86,e,s,gg)
+var xIB=_oz(z,98,e,s,gg)
 _(eFB,xIB)
-cs.push("./pages/medical/medical.vue.wxml:view:1:2740")
+cs.push("./pages/medical/medical.vue.wxml:view:1:3013")
 var oJB=_n('view')
-_rz(z,oJB,'class',87,e,s,gg)
+_rz(z,oJB,'class',99,e,s,gg)
 cs.pop()
 _(eFB,oJB)
-var fKB=_oz(z,88,e,s,gg)
+var fKB=_oz(z,100,e,s,gg)
 _(eFB,fKB)
-cs.push("./pages/medical/medical.vue.wxml:view:1:2807")
+cs.push("./pages/medical/medical.vue.wxml:view:1:3080")
 var cLB=_n('view')
-_rz(z,cLB,'class',89,e,s,gg)
+_rz(z,cLB,'class',101,e,s,gg)
 cs.pop()
 _(eFB,cLB)
-var hMB=_oz(z,90,e,s,gg)
+var hMB=_oz(z,102,e,s,gg)
 _(eFB,hMB)
-cs.push("./pages/medical/medical.vue.wxml:view:1:2869")
+cs.push("./pages/medical/medical.vue.wxml:view:1:3142")
 var oNB=_n('view')
-_rz(z,oNB,'class',91,e,s,gg)
+_rz(z,oNB,'class',103,e,s,gg)
 cs.pop()
 _(eFB,oNB)
-cs.push("./pages/medical/medical.vue.wxml:view:1:2910")
+cs.push("./pages/medical/medical.vue.wxml:view:1:3183")
 var cOB=_n('view')
-_rz(z,cOB,'class',92,e,s,gg)
-var oPB=_oz(z,93,e,s,gg)
+_rz(z,cOB,'class',104,e,s,gg)
+var oPB=_oz(z,105,e,s,gg)
 _(cOB,oPB)
 cs.pop()
 _(eFB,cOB)
-var lQB=_oz(z,94,e,s,gg)
+var lQB=_oz(z,106,e,s,gg)
 _(eFB,lQB)
-cs.push("./pages/medical/medical.vue.wxml:view:1:3042")
+cs.push("./pages/medical/medical.vue.wxml:view:1:3315")
 var aRB=_n('view')
-_rz(z,aRB,'class',95,e,s,gg)
+_rz(z,aRB,'class',107,e,s,gg)
 cs.pop()
 _(eFB,aRB)
-var tSB=_oz(z,96,e,s,gg)
+var tSB=_oz(z,108,e,s,gg)
 _(eFB,tSB)
 cs.pop()
 _(oBB,eFB)
-cs.push("./pages/medical/medical.vue.wxml:image:1:3223")
-var eTB=_mz(z,'image',['bindtap',97,'class',1,'data-comkey',2,'data-eventid',3,'id',4,'src',5],[],e,s,gg)
+cs.push("./pages/medical/medical.vue.wxml:image:1:3496")
+var eTB=_mz(z,'image',['bindtap',109,'class',1,'data-comkey',2,'data-eventid',3,'id',4,'src',5],[],e,s,gg)
 cs.pop()
 _(oBB,eTB)
-cs.push("./pages/medical/medical.vue.wxml:image:1:3425")
-var bUB=_mz(z,'image',['bindtap',103,'class',1,'data-comkey',2,'data-eventid',3,'id',4,'src',5],[],e,s,gg)
+cs.push("./pages/medical/medical.vue.wxml:image:1:3699")
+var bUB=_mz(z,'image',['bindtap',115,'class',1,'data-comkey',2,'data-eventid',3,'id',4,'src',5],[],e,s,gg)
 cs.pop()
 _(oBB,bUB)
-cs.push("./pages/medical/medical.vue.wxml:image:1:3637")
-var oVB=_mz(z,'image',['bindtap',109,'class',1,'data-comkey',2,'data-eventid',3,'id',4,'src',5],[],e,s,gg)
+cs.push("./pages/medical/medical.vue.wxml:image:1:3911")
+var oVB=_mz(z,'image',['bindtap',121,'class',1,'data-comkey',2,'data-eventid',3,'id',4,'src',5],[],e,s,gg)
 cs.pop()
 _(oBB,oVB)
-cs.push("./pages/medical/medical.vue.wxml:image:1:3832")
-var xWB=_mz(z,'image',['bindtouchstart',115,'class',1,'data-comkey',2,'data-eventid',3,'src',4],[],e,s,gg)
+cs.push("./pages/medical/medical.vue.wxml:image:1:4106")
+var xWB=_mz(z,'image',['bindtouchstart',127,'class',1,'data-comkey',2,'data-eventid',3,'src',4],[],e,s,gg)
 cs.pop()
 _(oBB,xWB)
 cs.pop()
@@ -2047,12 +2085,84 @@ return r
 }
 e_[x[8]]={f:m6,j:[],i:[],ti:[x[9]],ic:[]}
 d_[x[10]]={}
-d_[x[10]]["413050c1"]=function(e,s,r,gg){
+d_[x[10]]["7cc25281"]=function(e,s,r,gg){
 var z=gz$gwx_8()
-var b=x[10]+':413050c1'
+var b=x[10]+':7cc25281'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/policepage/policepage.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[10]);return}
+p_[b]=true
+try{
+cs.push("./pages/policepage/policepage.vue.wxml:view:1:27")
+var oB=_n('view')
+_rz(z,oB,'class',1,e,s,gg)
+cs.push("./pages/policepage/policepage.vue.wxml:view:1:60")
+var xC=_n('view')
+_rz(z,xC,'class',2,e,s,gg)
+var oD=_oz(z,3,e,s,gg)
+_(xC,oD)
+cs.pop()
+_(oB,xC)
+cs.push("./pages/policepage/policepage.vue.wxml:image:1:140")
+var fE=_mz(z,'image',['class',4,'src',1],[],e,s,gg)
+cs.pop()
+_(oB,fE)
+cs.push("./pages/policepage/policepage.vue.wxml:map:1:232")
+var cF=_mz(z,'map',['class',6,'id',1,'latitude',2,'longitude',3,'markers',4],[],e,s,gg)
+cs.pop()
+_(oB,cF)
+cs.push("./pages/policepage/policepage.vue.wxml:image:1:353")
+var hG=_mz(z,'image',['class',11,'src',1],[],e,s,gg)
+cs.pop()
+_(oB,hG)
+cs.push("./pages/policepage/policepage.vue.wxml:image:1:441")
+var oH=_mz(z,'image',['class',13,'src',1],[],e,s,gg)
+cs.pop()
+_(oB,oH)
+cs.pop()
+_(r,oB)
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m7=function(e,s,r,gg){
+var z=gz$gwx_8()
+return r
+}
+e_[x[10]]={f:m7,j:[],i:[],ti:[],ic:[]}
+d_[x[11]]={}
+var m8=function(e,s,r,gg){
+var z=gz$gwx_9()
+var lY=e_[x[11]].i
+_ai(lY,x[12],e_,x[11],1,1)
+var aZ=_v()
+_(r,aZ)
+cs.push("./pages/policepage/policepage.wxml:template:2:6")
+var t1=_oz(z,1,e,s,gg)
+var e2=_gd(x[11],t1,e_,d_)
+if(e2){
+var b3=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+aZ.wxXCkey=3
+e2(b3,b3,aZ,gg)
+gg.f=cur_globalf
+}
+else _w(t1,x[11],2,18)
+cs.pop()
+lY.pop()
+return r
+}
+e_[x[11]]={f:m8,j:[],i:[],ti:[x[12]],ic:[]}
+d_[x[13]]={}
+d_[x[13]]["413050c1"]=function(e,s,r,gg){
+var z=gz$gwx_10()
+var b=x[13]+':413050c1'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/register/register.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[10]);return}
+if(p_[b]){_wl(b,x[13]);return}
 p_[b]=true
 try{
 cs.push("./pages/register/register.vue.wxml:view:1:27")
@@ -2188,41 +2298,41 @@ throw err
 p_[b]=false
 return r
 }
-var m7=function(e,s,r,gg){
-var z=gz$gwx_8()
+var m9=function(e,s,r,gg){
+var z=gz$gwx_10()
 return r
 }
-e_[x[10]]={f:m7,j:[],i:[],ti:[],ic:[]}
-d_[x[11]]={}
-var m8=function(e,s,r,gg){
-var z=gz$gwx_9()
-var lY=e_[x[11]].i
-_ai(lY,x[12],e_,x[11],1,1)
-var aZ=_v()
-_(r,aZ)
+e_[x[13]]={f:m9,j:[],i:[],ti:[],ic:[]}
+d_[x[14]]={}
+var m10=function(e,s,r,gg){
+var z=gz$gwx_11()
+var o6=e_[x[14]].i
+_ai(o6,x[15],e_,x[14],1,1)
+var f7=_v()
+_(r,f7)
 cs.push("./pages/register/register.wxml:template:2:6")
-var t1=_oz(z,1,e,s,gg)
-var e2=_gd(x[11],t1,e_,d_)
-if(e2){
-var b3=_1z(z,0,e,s,gg) || {}
+var c8=_oz(z,1,e,s,gg)
+var h9=_gd(x[14],c8,e_,d_)
+if(h9){
+var o0=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-aZ.wxXCkey=3
-e2(b3,b3,aZ,gg)
+f7.wxXCkey=3
+h9(o0,o0,f7,gg)
 gg.f=cur_globalf
 }
-else _w(t1,x[11],2,18)
+else _w(c8,x[14],2,18)
 cs.pop()
-lY.pop()
+o6.pop()
 return r
 }
-e_[x[11]]={f:m8,j:[],i:[],ti:[x[12]],ic:[]}
-d_[x[13]]={}
-d_[x[13]]["e93d5356"]=function(e,s,r,gg){
-var z=gz$gwx_10()
-var b=x[13]+':e93d5356'
+e_[x[14]]={f:m10,j:[],i:[],ti:[x[15]],ic:[]}
+d_[x[16]]={}
+d_[x[16]]["e93d5356"]=function(e,s,r,gg){
+var z=gz$gwx_12()
+var b=x[16]+':e93d5356'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/userinfor/userinfor.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[13]);return}
+if(p_[b]){_wl(b,x[16]);return}
 p_[b]=true
 try{
 cs.push("./pages/userinfor/userinfor.vue.wxml:view:1:27")
@@ -2699,34 +2809,34 @@ throw err
 p_[b]=false
 return r
 }
-var m9=function(e,s,r,gg){
-var z=gz$gwx_10()
+var m11=function(e,s,r,gg){
+var z=gz$gwx_12()
 return r
 }
-e_[x[13]]={f:m9,j:[],i:[],ti:[],ic:[]}
-d_[x[14]]={}
-var m10=function(e,s,r,gg){
-var z=gz$gwx_11()
-var o6=e_[x[14]].i
-_ai(o6,x[15],e_,x[14],1,1)
-var f7=_v()
-_(r,f7)
+e_[x[16]]={f:m11,j:[],i:[],ti:[],ic:[]}
+d_[x[17]]={}
+var m12=function(e,s,r,gg){
+var z=gz$gwx_13()
+var lCB=e_[x[17]].i
+_ai(lCB,x[18],e_,x[17],1,1)
+var aDB=_v()
+_(r,aDB)
 cs.push("./pages/userinfor/userinfor.wxml:template:2:6")
-var c8=_oz(z,1,e,s,gg)
-var h9=_gd(x[14],c8,e_,d_)
-if(h9){
-var o0=_1z(z,0,e,s,gg) || {}
+var tEB=_oz(z,1,e,s,gg)
+var eFB=_gd(x[17],tEB,e_,d_)
+if(eFB){
+var bGB=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-f7.wxXCkey=3
-h9(o0,o0,f7,gg)
+aDB.wxXCkey=3
+eFB(bGB,bGB,aDB,gg)
 gg.f=cur_globalf
 }
-else _w(c8,x[14],2,18)
+else _w(tEB,x[17],2,18)
 cs.pop()
-o6.pop()
+lCB.pop()
 return r
 }
-e_[x[14]]={f:m10,j:[],i:[],ti:[x[15]],ic:[]}
+e_[x[17]]={f:m12,j:[],i:[],ti:[x[18]],ic:[]}
 if(path&&e_[path]){
 window.__wxml_comp_version__=0.02
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]

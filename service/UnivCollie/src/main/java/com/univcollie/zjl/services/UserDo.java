@@ -11,4 +11,7 @@ public interface UserDo {
     public User selectUser(String telnumber,String password);
     public Userinfor selectUserInfor(int id);
     public int updataDis(String field,String content,int id);
+
+//    admin页面学生总数
+    public int getMaxID();
 }

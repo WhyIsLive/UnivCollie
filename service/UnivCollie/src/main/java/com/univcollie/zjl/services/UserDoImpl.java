@@ -20,7 +20,7 @@ public class UserDoImpl implements UserDo{
         HashMap<String,Object> map = new HashMap<String,Object>();
         map.put("telnumber",telnumber);
         map.put("studentid",studentid);
-        if(userDAO.checkupKey(map)!=null)
+        if(userDAO.checkupKey(map).length>0)
             return 1;
         return 0;
     }
@@ -83,5 +83,11 @@ public class UserDoImpl implements UserDo{
                 return result;
         }
         return 0;
+    }
+
+//    admin页面方法----得到总用户数
+    @Override
+    public int getMaxID() {
+        return  userDAO.getMaxID();
     }
 }
