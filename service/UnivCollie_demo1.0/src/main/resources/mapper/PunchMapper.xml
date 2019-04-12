@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.univcollie.zjl.DAO.PunchDAO">
+
+    <update id="reloadPunch_1"  keyProperty="java.lang.Integer">
+        UPDATE failsafetyindex SET safetyindex=safetyindex-5 WHERE failsafetyindex.safetyindex>5 AND today=0 ;
+    </update>
+    <update id="reloadPunch_2"  keyProperty="java.lang.Integer">
+        UPDATE failsafetyindex SET fail=fail+1 WHERE today=0;
+    </update>
+    <update id="reloadPunch_3"  keyProperty="java.lang.Integer">
+        UPDATE failsafetyindex SET today=0 WHERE failsafetyindex.today=1;
+    </update>
+
+    <select id="punchMax" parameterType="HashMap" resultType="java.lang.Integer">
+        SELECT count(ID) FROM `adminindexid` WHERE today=#{today} AND studentid LIKE #{grade}
+    </select>
+
+
+    <update id="reloadPunchNumber_success"  keyProperty="java.lang.Integer">
+       UPDATE punchlog SET success=0
+    </update>
+
+    <update id="reloadPunchNumber_fail"  keyProperty="java.lang.Integer">
+       UPDATE punchlog SET fail=0
+    </update>
+
+
+    <update id="reloadPunchNumber_saftyindex"  keyProperty="java.lang.Integer">
+       UPDATE `user` SET safetyindex=100
+    </update>
+</mapper>
+
+

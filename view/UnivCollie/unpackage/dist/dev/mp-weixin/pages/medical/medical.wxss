@@ -115,7 +115,7 @@
 	margin-top: 15%;
 	margin-left: 20%;
 } */
-._textarea.data-v-44027ba5{
+textarea.data-v-44027ba5{
 	width: 90%;
 	height: 200rpx;
 	margin-top: 5rpx;

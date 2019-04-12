@@ -5,7 +5,8 @@
     "pages/register/register",
     "pages/userinfor/userinfor",
     "pages/medical/medical",
-    "pages/policepage/policepage"
+    "pages/policepage/policepage",
+    "pages/manager/manager"
   ],
   "subPackages": [],
   "window": {

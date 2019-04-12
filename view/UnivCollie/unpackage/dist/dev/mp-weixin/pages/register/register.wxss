@@ -66,7 +66,7 @@
 	padding-left: 30px;
 	line-height: 30px;
 }
-.input-row ._input {
+.input-row input {
 	width: 80%;
 	height: 30px;
 	min-height: 30px;
@@ -90,7 +90,7 @@
 	margin-top: 5%;
 	padding: 20px;
 }
-._button.primary {
+button.primary {
 	background-color: #00CED1;
 }
 .action-row {

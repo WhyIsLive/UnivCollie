@@ -7,6 +7,7 @@ import org.apache.ibatis.annotations.Mapper;
 
 
 import java.util.HashMap;
+import java.util.List;
 
 //User DAO接口类 映射类
 @Mapper
@@ -28,4 +29,19 @@ public interface UserDAO {
 
     //获得user总数
     int getMaxID();
+
+    // 更新打卡数和当日打卡
+    int updataPunchSuccess(Integer id);
+    int selectTodayPunch(Integer id);
+
+//    得到学生安全管理员列表
+    List<User> getManagerStudentList();
+    //    得到学生列表
+    List<User> getStudentList();
+
+//    取消安全员权限
+    void setStudent(int id);
+
+    //   设置安全员权限
+    void setstudentmanager(int id);
 }

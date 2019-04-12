@@ -11,7 +11,8 @@
 			"path": "pages/index/index",
 			"style": {
 				"navigationBarTitleText": "INDEX",
-				"navigationBarTextStyle": "white"
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
 			}
 		},
 		{
@@ -35,10 +36,10 @@
 						"style": "default",
 						"height": "7%",
 						"contentdown": {
-							"caption": "下拉刷新..."
+							"caption": "重新获取定位..."
 						},
 						"contentrefresh": {
-							"caption": "正在刷新内容..."
+							"caption": "正在获取定位..."
 						}
 					}
 				}
@@ -61,10 +62,29 @@
             "style" : {
 					"navigationBarTitleText": "MEDICL",
 					"navigationBarTextStyle": "white",
+					"enablePullDownRefresh": true,
 					// "navigationBarBackgroundColor": "#f0f2f4",
 					"app-plus": {
-						 "titleNView": false
+						 "titleNView": false,
+						 "pullToRefresh": {
+						 	// "support": true,
+						 	"color": "#ff3333",
+						 	"style": "default",
+						 	"height": "7%",
+						 	"contentdown": {
+						 		"caption": "重新获取定位..."
+						 	},
+						 	"contentrefresh": {
+						 		"caption": "正在获取定位..."
+						 	}
+						 }
 						}
+			}
+        }
+        ,{
+            "path" : "pages/manager/manager",
+            "style" : {
+				"enablePullDownRefresh": true
 			}
         }
     ],
@@ -100,6 +120,16 @@
 				"iconPath": "static/bottom/self.png",
 				"selectedIconPath": "static/bottom/self1.png",
 				"text": "个人中心"
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
 			}
 		]
 	}

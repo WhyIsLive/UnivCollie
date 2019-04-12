@@ -23,11 +23,12 @@
 {
   data: {
     locationtype: 'gcj02',
-    longitude: 102.847126,
-    latitude: 24.836836,
+    longitude: 102.847785,
+    latitude: 24.833456,
+    button_type: 0,
     covers: [{
-      latitude: 24.836836,
-      longitude: 102.847126,
+      longitude: 0,
+      latitude: 0,
       iconPath: '../../static/location@3x.png' }] },
 
 
@@ -35,17 +36,81 @@
     uni.getLocation({
       type: this.locationtype,
       success: function success(res) {
-        // 				uni.showToast({
-        // 					title: '获取位置成功！',
-        // 					duration: 2000
-        // 				});
         this.longitude = res.longitude;
         this.latitude = res.latitude;
         console.log('当前位置的经度：' + res.longitude);
         console.log('当前位置的纬度：' + res.latitude);
+        uni.setStorageSync("longitude", res.longitude);
+        uni.setStorageSync("latitude", res.latitude);
       } });
 
     var mapContext = uni.createMapContext('polmap', this);
+    mapContext.moveToLocation();
+    this.$set(this.covers, 0, Object.assign(this.covers[0], {
+      longitude: uni.getStorageSync("longitude"),
+      latitude: uni.getStorageSync("latitude") }));
+
+  },
+  methods: {
+    buttonReq: function buttonReq(e) {var _this = this;
+      // 震动 
+      // if(this.button_type==0){
+      setTimeout(function () {
+        _this.button_type = 0;
+      }, 1000); //箭头函数解决data失效问题			
+      this.button_type++;
+      uni.vibrateLong();
+      if (this.button_type >= 3) {
+        //获取当前位置
+        uni.getLocation({
+          type: this.locationtype,
+          success: function success(res) {
+            console.log('当前位置的经度：' + res.longitude);
+            console.log('当前位置的纬度：' + res.latitude);
+            this.longitude = res.longitude;
+            this.latitude = res.latitude;
+          } });
+
+        //发送警务求助信号
+        uni.request({
+          url: 'http://127.0.0.1:8080/sos/police',
+          // url: 'http://192.168.191.1:8080/user/login',
+          data: {
+            id: uni.getStorageSync("ID"),
+            location: this.longitude + "#" + this.latitude,
+            stuname: uni.getStorageSync("username"),
+            stutel: uni.getStorageSync("telnumber"),
+            illog: "药物过敏史：" + this.allergy + "#" + "常用药：" + this.medication + "#" + "疾病史：" + this.illog } });
+
+
+        if (e.currentTarget.id == "b2") {
+          uni.makePhoneCall({
+            phoneNumber: uni.getStorageSync("pol_tel") });
+
+        }
+        this.button_type = 0;
+      }
+    } },
+
+  onPullDownRefresh: function onPullDownRefresh() {
+    uni.getLocation({
+      type: this.locationtype,
+      success: function success(res) {
+        this.longitude = res.longitude;
+        this.latitude = res.latitude;
+        console.log('当前位置的经度2：' + this.longitude);
+        console.log('当前位置的纬度2：' + this.latitude);
+        uni.setStorageSync("longitude", res.longitude);
+        uni.setStorageSync("latitude", res.latitude);
+      } });
+
+    var mapContext = uni.createMapContext('polmap', this);
+    mapContext.moveToLocation();
+    this.$set(this.covers, 0, Object.assign(this.covers[0], {
+      longitude: uni.getStorageSync("longitude"),
+      latitude: uni.getStorageSync("latitude") }));
+
+    uni.stopPullDownRefresh();
   } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["default"]))
 
@@ -82,7 +147,7 @@ var render = function() {
     { staticClass: "box" },
     [
       _c("view", { staticClass: "broadcast" }, [
-        _vm._v("长按3秒以发出求助信息！")
+        _vm._v("您的当前位置，下拉刷新重新定位")
       ]),
       _c("image", {
         staticClass: "background-img",
@@ -94,16 +159,35 @@ var render = function() {
           id: "polmap",
           latitude: _vm.latitude,
           longitude: _vm.longitude,
-          markers: _vm.covers
+          markers: _vm.covers,
+          "show-location": true
         }
       }),
       _c("image", {
         staticClass: "button1",
-        attrs: { src: "../../static/policpage/button1.png" }
+        attrs: {
+          src: "../../static/policpage/button1.png",
+          id: "b1",
+          eventid: "7cc25281-0"
+        },
+        on: {
+          touchstart: function($event) {
+            _vm.buttonReq($event)
+          }
+        }
       }),
       _c("image", {
         staticClass: "button2",
-        attrs: { src: "../../static/policpage/button2.png" }
+        attrs: {
+          src: "../../static/policpage/button2.png",
+          id: "b2",
+          eventid: "7cc25281-1"
+        },
+        on: {
+          touchstart: function($event) {
+            _vm.buttonReq($event)
+          }
+        }
       })
     ],
     1

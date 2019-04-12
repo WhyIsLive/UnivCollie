@@ -13,12 +13,12 @@
 	height: 100%;
 }
 .broadcast {
-	height: 90rpx;
+	height: 60rpx;
 	background: #00CED1;
-	width: 98%;
-	margin-left: 1%;
+	width: 90%;
+	margin-left: 5%;
 	margin-top: 18%;
-	font-size: 24px;
+	font-size: 13px;
 	color: #F7F7F7;
 	-webkit-animation: 10s wordsLoop linear infinite normal;
 	        animation: 10s wordsLoop linear infinite normal;
@@ -28,7 +28,7 @@
 	width: 90%;
 	height: 700rpx;
 	margin-left: 5%;
-	margin-top: 5%;
+	margin-top: 0%;
 }
 .button1,
 .button2 {

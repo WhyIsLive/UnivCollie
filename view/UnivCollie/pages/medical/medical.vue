@@ -99,8 +99,11 @@
 		},
 		methods: {
 			buttonReq() {
-				// 震动
+			
+				// if(this.button_type==0){
+				setTimeout(()=>{this.button_type=0},1000);//箭头函数解决data失效问题			
 				this.button_type++;
+					// 震动 
 				uni.vibrateLong();
 				if(this.button_type>=3){
 					//获取当前位置
@@ -215,11 +218,11 @@
 						});
 					}
 				})
-			}
-			
+			},
 			
 		}
 	}
+	
 	
 
 </script>

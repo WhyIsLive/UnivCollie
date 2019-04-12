@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.univcollie.zjl.DAO.SysinforDAO">
+
+    <update id="updataSosrules" parameterType="HashMap">
+       UPDATE configurationlog SET securitytel=#{polictel},matterstel=#{medictel}
+    </update>
+
+    <update id="updataPunchrules" parameterType="HashMap">
+       UPDATE configurationlog SET begintime=#{begintime},overtime=#{overtime}
+    </update>
+
+    <select id="getAllinfo" resultType="map">
+       SELECT begintime,overtime,securitytel,matterstel FROM configurationlog
+    </select>
+
+</mapper>
+
+

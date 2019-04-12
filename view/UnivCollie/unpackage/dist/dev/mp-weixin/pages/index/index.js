@@ -20,40 +20,122 @@
 
 
 
-{
-  data: function data() {
-    return {
-      title: "text",
-      locationtype: 'gcj02',
-      latitude: 24.836836,
-      longitude: 102.847126,
-      covers: [{
-        latitude: 24.836836,
-        longitude: 102.847126,
-        iconPath: '../../static/location@3x.png' }] };
 
+
+
+
+
+
+{
+  data: {
+    pun_time: "12:10~24:18",
+    begin_hour: 0,
+    over_hour: 0,
+    begin_minute: 0,
+    over_minute: 0 },
+
+  onLoad: function onLoad() {
+    this.pun_time = uni.getStorageSync('begintime') + '~' + uni.getStorageSync('overtime');
+    this.begin_hour = this.pun_time.slice(0, 2);
+    this.over_hour = this.pun_time.slice(6, 8);
+    this.begin_minute = this.pun_time.slice(3, 5);
+    this.over_minute = this.pun_time.slice(9);
+  },
+  onPullDownRefresh: function onPullDownRefresh() {var _this = this;
+    uni.request({
+      url: 'http://127.0.0.1:8080/data/getInfor',
+      // url: 'http://192.168.191.1:8080/user/infor',
+      success: function success(res) {
+        _this.pun_time = res.data.begintime_h + ':' + res.data.begintime_m + '~' + res.data.overtime_h + ':' + res.data.overtime_m;
+        _this.begin_hour = _this.pun_time.slice(0, 2);
+        _this.over_hour = _this.pun_time.slice(6, 8);
+        _this.begin_minute = _this.pun_time.slice(3, 5);
+        _this.over_minute = _this.pun_time.slice(9);
+        uni.stopPullDownRefresh();
+      },
+      fail: function fail(res) {
+        uni.showToast({
+          icon: 'none',
+          title: '网络服务异常！' });
+
+        uni.stopPullDownRefresh();
+      } });
 
   },
   methods: {
-    clean: function clean() {
-      uni.clearStorageSync();
-      uni.showToast({
-        title: '清除成功！',
-        duration: 2000 });
+    punchf: function punchf() {
+      // 震动 
+      uni.vibrateLong();
+      var now_time = new Date();
+      console.log("当前时间为：" + now_time.getHours() + ":" + now_time.getMinutes());
+      console.log(this.begin_hour + "--" + this.over_hour + "--" + this.begin_minute + "--" + this.over_minute);
+      if ((now_time.getHours() == this.begin_hour && now_time.getMinutes() >= this.begin_minute || now_time.getHours() >
+      this.begin_hour) && (now_time.getHours() == this.over_hour && now_time.getMinutes() <= this.over_minute ||
+      now_time.getHours() < this.over_hour)) {
+        uni.showLoading({
+          title: '请稍后~',
+          mask: true });
 
-    },
-    getLocation: function getLocation() {
-      uni.getLocation({
-        type: this.locationtype,
-        success: function success(res) {
-          uni.showToast({
-            title: '获取位置成功！',
-            duration: 2000 });
+        uni.getLocation({
+          type: this.locationtype,
+          success: function success(res) {
+            console.log('当前位置的经度：' + res.longitude);
+            console.log('当前位置的纬度：' + res.latitude);
+            // 打卡
+            uni.request({
+              url: 'http://127.0.0.1:8080/user/punch',
+              // url: 'http://192.168.191.1:8080/user/login',
+              data: {
+                id: uni.getStorageSync("ID"),
+                longitude: res.longitude,
+                latitude: res.latitude },
 
-          console.log('当前位置的经度：' + res.longitude);
-          console.log('当前位置的纬度：' + res.latitude);
-        } });
+              success: function success(res) {
+                if (res.data > 0) {
+                  if (res.data == 1) {
+                    uni.showToast({
+                      icon: 'none',
+                      title: '打卡成功！' });
 
+                  } else {
+                    uni.showToast({
+                      icon: 'none',
+                      title: '打过卡了哟！' });
+
+                  }
+                } else {
+                  uni.showToast({
+                    icon: 'none',
+                    title: '请在打卡范围内打卡！' });
+
+                }
+                uni.stopPullDownRefresh();
+              },
+              fail: function fail(res) {
+                uni.showToast({
+                  icon: 'none',
+                  title: '网络服务异常！' });
+
+                uni.stopPullDownRefresh();
+              } });
+
+          },
+          fail: function fail(res) {
+            uni.showToast({
+              icon: 'none',
+              title: '网络服务异常！' });
+
+            uni.stopPullDownRefresh();
+          } });
+
+
+
+      } else {
+        uni.showToast({
+          icon: 'none',
+          title: '还不到打卡时间哟！' });
+
+      }
     } } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["default"]))
 
@@ -85,52 +167,34 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "view",
-    { staticClass: "content" },
-    [
-      _c("map", {
-        staticClass: "map1",
-        attrs: {
-          latitude: _vm.latitude,
-          longitude: _vm.longitude,
-          markers: _vm.covers
+  return _c("view", { staticClass: "box" }, [
+    _c("image", {
+      staticClass: "background-img",
+      attrs: { src: "../../static/mediclpage/bg1.jpg" }
+    }),
+    _c("view", { staticClass: "title" }, [
+      _vm._v("打卡时间:" + _vm._s(_vm.pun_time))
+    ]),
+    _c("view", { staticClass: "foot" }, [_vm._v("考勤管理员：18313023631")]),
+    _c(
+      "view",
+      {
+        staticClass: "content",
+        attrs: { eventid: "654f31f2-0" },
+        on: {
+          touchstart: function($event) {
+            _vm.punchf()
+          }
         }
-      }),
-      _c(
-        "view",
-        [
-          _c("text", { staticClass: "title" }, [_vm._v(_vm._s(_vm.title))]),
-          _c(
-            "button",
-            {
-              attrs: { type: "text", eventid: "654f31f2-0" },
-              on: {
-                tap: function($event) {
-                  _vm.clean()
-                }
-              }
-            },
-            [_vm._v("清除缓存数据")]
-          ),
-          _c(
-            "button",
-            {
-              attrs: { type: "text", eventid: "654f31f2-1" },
-              on: {
-                tap: function($event) {
-                  _vm.getLocation()
-                }
-              }
-            },
-            [_vm._v("获取坐标位置")]
-          )
-        ],
-        1
-      )
-    ],
-    1
-  )
+      },
+      [
+        _c("image", {
+          staticClass: "pun-but",
+          attrs: { src: "../../static/pbut.png" }
+        })
+      ]
+    )
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true

@@ -108,9 +108,12 @@
     this.illog = this.illog2 = uni.getStorageSync('illog');
   },
   methods: {
-    buttonReq: function buttonReq() {
-      // 震动
+    buttonReq: function buttonReq() {var _this = this;
+
+      // if(this.button_type==0){
+      setTimeout(function () {_this.button_type = 0;}, 1000); //箭头函数解决data失效问题			
       this.button_type++;
+      // 震动 
       uni.vibrateLong();
       if (this.button_type >= 3) {
         //获取当前位置
@@ -166,7 +169,7 @@
           break;}
 
     },
-    upddis: function upddis(e) {var _this = this;
+    upddis: function upddis(e) {var _this2 = this;
       uni.showLoading({
         title: '请稍后...',
         mask: false });
@@ -196,16 +199,16 @@
 
             switch (e.currentTarget.id) {
               case 'allergylog':
-                _this.allergy = _this.allergy2;
-                _this.showallergy = false;
+                _this2.allergy = _this2.allergy2;
+                _this2.showallergy = false;
                 break;
               case 'medicationlog':
-                _this.medication = _this.medication2;
-                _this.showmedication = false;
+                _this2.medication = _this2.medication2;
+                _this2.showmedication = false;
                 break;
               case 'illog':
-                _this.illog = _this.illog2;
-                _this.showillog = false;
+                _this2.illog = _this2.illog2;
+                _this2.showillog = false;
                 break;}
             ;
             uni.hideLoading();

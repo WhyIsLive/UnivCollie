@@ -1,13 +1,2 @@
-
-      !(function(){
-        var uniAppViewReadyCallback = function(){
-          setCssToHead([".",[1],"content { text-align: center; height:",[0,700],"; width:100% }\n.",[1],"map1{ height: 100%; width: 100%; margin-top: ",[0,200],"; }\n.",[1],"title { font-size: ",[0,36],"; color: #8f8f94; }\n",],undefined,{path:"./pages/index/index.wxss"})();
+setCssToHead([".",[1],"box { height: 100%; width: 100% }\n.",[1],"background-img { z-index: -1; position: absolute; top: ",[0,0],"; width: 100%; height: 100%; }\n.",[1],"title { font-size: ",[0,35],"; margin-top: 18%; height: ",[0,60],"; width: 50%; margin-right: ",[0,300],"; background-color: #FFFFFF; border-radius: 0 ",[0,50]," ",[0,50]," 0; color: #00CED1; }\n.",[1],"content { margin-top: 50%; margin-left: 36%; height: ",[0,220],"; width: 28%; background: #FFFFFF; border-radius: 50%; color: #00CED1; font-size: ",[0,50],"; }\n.",[1],"pun-but { margin-top: 2%; width: 95%; height: 98%; }\n.",[1],"foot { font-size: ",[0,35],"; margin-top: 3%; height: ",[0,60],"; width: 60%; margin-right: ",[0,300],"; background-color: #FFFFFF; border-radius: 0 ",[0,50]," ",[0,50]," 0; color: #00CED1; }\n",],undefined,{path:"./pages/index/index.wxss"})();
 document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/index/index.wxml') } }));
-        }
-        if(window.__uniAppViewReady__){
-          uniAppViewReadyCallback()
-        }else{
-          document.addEventListener('uniAppViewReady',uniAppViewReadyCallback)
-        }
-      })();
-      

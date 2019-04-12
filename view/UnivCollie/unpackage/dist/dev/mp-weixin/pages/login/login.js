@@ -72,16 +72,27 @@
               title: '登陆失败！' });
 
             return;
-          }
-          uni.setStorageSync('ID', res.data.ID);
-          uni.setStorageSync('studentid', res.data.studentid);
-          uni.setStorageSync('username', res.data.username);
-          uni.setStorageSync('telnumber', telnumber);
-          uni.setStorageSync('password', password);
-          uni.hideLoading();
-          uni.reLaunch({
-            url: '../userinfor/userinfor' });
+          } else {
+            if (res.data.type == 0) {
+              uni.setStorageSync('ID', res.data.ID);
+              uni.setStorageSync('studentid', res.data.studentid);
+              uni.setStorageSync('username', res.data.username);
+              uni.setStorageSync('telnumber', telnumber);
+              uni.setStorageSync('password', password);
+              uni.hideLoading();
+              uni.reLaunch({
+                url: '../userinfor/userinfor' });
 
+            }
+            if (res.data.type == 1) {
+              uni.setStorageSync('telnumber', telnumber);
+              uni.setStorageSync('password', password);
+              uni.hideLoading();
+              uni.reLaunch({
+                url: '../manager/manager' });
+
+            }
+          }
         },
         fail: function fail(res) {
           uni.hideLoading();
@@ -96,7 +107,6 @@
       service: 'push',
       success: function success(res) {
         console.log(res.provider);
-
         // 个推的名称为 igexin
         if (~res.provider.indexOf('igexin')) {
           uni.subscribePush({
@@ -137,16 +147,27 @@
               title: '登陆失败！' });
 
             return;
-          }
-          uni.setStorageSync('ID', res.data.ID);
-          uni.setStorageSync('telnumber', telnumber);
-          uni.setStorageSync('password', password);
-          uni.setStorageSync('username', res.data.username);
-          uni.setStorageSync('studentid', res.data.studentid);
-          uni.hideLoading();
-          uni.reLaunch({
-            url: '../userinfor/userinfor' });
+          } else {
+            if (res.data.type == 0) {
+              uni.setStorageSync('ID', res.data.ID);
+              uni.setStorageSync('studentid', res.data.studentid);
+              uni.setStorageSync('username', res.data.username);
+              uni.setStorageSync('telnumber', telnumber);
+              uni.setStorageSync('password', password);
+              uni.hideLoading();
+              uni.reLaunch({
+                url: '../userinfor/userinfor' });
 
+            }
+            if (res.data.type == 1) {
+              uni.setStorageSync('telnumber', telnumber);
+              uni.setStorageSync('password', password);
+              uni.hideLoading();
+              uni.reLaunch({
+                url: '../manager/manager' });
+
+            }
+          }
         },
         fail: function fail(res) {
           uni.hideLoading();

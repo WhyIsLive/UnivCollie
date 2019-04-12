@@ -27,7 +27,7 @@
   <groupId>com.zjl.bs</groupId>
   <artifactId>UnivCollie</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
 
   <name>UnivCollie Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
@@ -131,6 +131,30 @@
           <artifactId>maven-deploy-plugin</artifactId>
           <version>2.8.2</version>
         </plugin>
+
+        <!-- 打包jar文件时，配置manifest文件，加入lib包的jar依赖 -->
+        <plugin>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-maven-plugin</artifactId>
+        </plugin>
+        <!--<plugin>-->
+          <!--<groupId>org.apache.maven.plugins</groupId>-->
+          <!--<artifactId>maven-jar-plugin</artifactId>-->
+          <!--<configuration>-->
+            <!--<archive>-->
+              <!--<manifest>-->
+                <!--&lt;!&ndash;<addClasspath>true</addClasspath>&ndash;&gt;-->
+                <!--&lt;!&ndash;<useUniqueVersions>false</useUniqueVersions>&ndash;&gt;-->
+                <!--&lt;!&ndash;<classpathPrefix>D:/apache-maven-3.6.0-bin/repository/org/</classpathPrefix>&ndash;&gt;-->
+                <!--<mainClass>com.univcollie.zjl.Univcollie</mainClass>-->
+              <!--</manifest>-->
+              <!--&lt;!&ndash;<manifestEntries>&ndash;&gt;-->
+                <!--&lt;!&ndash;<version>${project.version}</version>&ndash;&gt;-->
+              <!--&lt;!&ndash;</manifestEntries>&ndash;&gt;-->
+            <!--</archive>-->
+          <!--</configuration>-->
+        <!--</plugin>-->
+
       </plugins>
     </pluginManagement>
   </build>

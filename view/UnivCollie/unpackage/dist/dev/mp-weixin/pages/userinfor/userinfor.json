@@ -1,4 +1,5 @@
 {
+  "usingComponents": {},
   "navigationBarTitleText": "Personal Center",
   "enablePullDownRefresh": true,
   "navigationBarTextStyle": "white"
