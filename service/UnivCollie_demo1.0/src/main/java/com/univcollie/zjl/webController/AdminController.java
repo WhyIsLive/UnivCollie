@@ -29,6 +29,8 @@ public class AdminController {
     @Autowired
     SystemDo systemDo;
 
+    @Autowired
+    GeTuiService geTuiService;
     @RequestMapping("/index")
     public String index(Model model){
         model.addAttribute("student", userDo.getMaxID());
@@ -81,7 +83,8 @@ public class AdminController {
 
     @RequestMapping("/updataPunchrules")
     public String updataPunchrules(String begintime_h,String begintime_m,String overtime_h,String overtime_m){
-        System.out.println("更新应急电话..");
+        System.out.println("更新打卡时间并推送通知..");
+        geTuiService.tuisong(begintime_h+":"+begintime_m,overtime_h+":"+overtime_m);
         systemDo.updataPunchrules(begintime_h+":"+begintime_m,overtime_h+":"+overtime_m);
         System.out.println("更新成功！");
         return "redirect:/admin/sospunch";

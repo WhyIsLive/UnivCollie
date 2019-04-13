@@ -11,7 +11,7 @@
  Target Server Version : 50724
  File Encoding         : 65001
 
- Date: 14/03/2019 09:16:54
+ Date: 12/04/2019 16:07:30
 */
 
 SET NAMES utf8mb4;
@@ -34,11 +34,6 @@ CREATE TABLE `configurationlog`  (
 ) ENGINE = InnoDB AUTO_INCREMENT = 2 CHARACTER SET = utf8 COLLATE = utf8_general_ci COMMENT = '配置表' ROW_FORMAT = Dynamic;
 
 -- ----------------------------
--- Records of configurationlog
--- ----------------------------
-INSERT INTO `configurationlog` VALUES (1, NULL, '19:00', '21:00', '321321', '43243141', '2132132', '32132132');
-
--- ----------------------------
 -- Table structure for dis
 -- ----------------------------
 DROP TABLE IF EXISTS `dis`;
@@ -50,26 +45,7 @@ CREATE TABLE `dis`  (
   PRIMARY KEY (`ID`) USING BTREE,
   UNIQUE INDEX `get_disea`(`ID`) USING BTREE,
   CONSTRAINT `dis_id` FOREIGN KEY (`ID`) REFERENCES `user` (`ID`) ON DELETE RESTRICT ON UPDATE RESTRICT
-) ENGINE = InnoDB AUTO_INCREMENT = 24 CHARACTER SET = utf8 COLLATE = utf8_general_ci COMMENT = '病历表' ROW_FORMAT = Dynamic;
-
--- ----------------------------
--- Records of dis
--- ----------------------------
-INSERT INTO `dis` VALUES (1, NULL, NULL, '');
-INSERT INTO `dis` VALUES (2, NULL, NULL, '');
-INSERT INTO `dis` VALUES (3, NULL, NULL, '');
-INSERT INTO `dis` VALUES (4, NULL, NULL, '');
-INSERT INTO `dis` VALUES (9, '3', '3', '3');
-INSERT INTO `dis` VALUES (10, '3', '3', '3');
-INSERT INTO `dis` VALUES (11, '4', '4', '4');
-INSERT INTO `dis` VALUES (16, '3', '4', '1');
-INSERT INTO `dis` VALUES (17, NULL, NULL, '');
-INSERT INTO `dis` VALUES (18, NULL, NULL, '');
-INSERT INTO `dis` VALUES (19, NULL, NULL, '');
-INSERT INTO `dis` VALUES (20, NULL, NULL, '');
-INSERT INTO `dis` VALUES (21, NULL, NULL, '');
-INSERT INTO `dis` VALUES (22, NULL, NULL, '');
-INSERT INTO `dis` VALUES (23, NULL, NULL, '');
+) ENGINE = InnoDB AUTO_INCREMENT = 27 CHARACTER SET = utf8 COLLATE = utf8_general_ci COMMENT = '病历表' ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Table structure for punchlog
@@ -80,28 +56,27 @@ CREATE TABLE `punchlog`  (
   `success` tinyint(255) NOT NULL DEFAULT 0 COMMENT '打卡成功次数',
   `fail` tinyint(255) NOT NULL DEFAULT 0 COMMENT '打卡失败次数',
   `failtime` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '打卡失败记录',
+  `today` int(255) NULL DEFAULT 0,
   PRIMARY KEY (`ID`) USING BTREE,
   UNIQUE INDEX `get_punc`(`ID`) USING BTREE,
   CONSTRAINT `pun_id` FOREIGN KEY (`ID`) REFERENCES `user` (`ID`) ON DELETE RESTRICT ON UPDATE RESTRICT
-) ENGINE = InnoDB AUTO_INCREMENT = 24 CHARACTER SET = utf8 COLLATE = utf8_general_ci COMMENT = '打卡日志' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 27 CHARACTER SET = utf8 COLLATE = utf8_general_ci COMMENT = '打卡日志' ROW_FORMAT = Dynamic;
 
 -- ----------------------------
--- Records of punchlog
+-- Table structure for soslog
 -- ----------------------------
-INSERT INTO `punchlog` VALUES (1, 24, 2, NULL);
-INSERT INTO `punchlog` VALUES (2, 43, 6, NULL);
-INSERT INTO `punchlog` VALUES (3, 0, 0, NULL);
-INSERT INTO `punchlog` VALUES (4, 0, 0, NULL);
-INSERT INTO `punchlog` VALUES (9, 0, 0, NULL);
-INSERT INTO `punchlog` VALUES (11, 3, 3, '3');
-INSERT INTO `punchlog` VALUES (16, 3, 0, '3');
-INSERT INTO `punchlog` VALUES (17, 0, 0, NULL);
-INSERT INTO `punchlog` VALUES (18, 0, 0, NULL);
-INSERT INTO `punchlog` VALUES (19, 0, 0, NULL);
-INSERT INTO `punchlog` VALUES (20, 0, 0, NULL);
-INSERT INTO `punchlog` VALUES (21, 0, 0, NULL);
-INSERT INTO `punchlog` VALUES (22, 0, 0, NULL);
-INSERT INTO `punchlog` VALUES (23, 0, 0, NULL);
+DROP TABLE IF EXISTS `soslog`;
+CREATE TABLE `soslog`  (
+  `ID` int(255) NOT NULL AUTO_INCREMENT,
+  `studentid` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '学生id',
+  `studentmid` int(11) NULL DEFAULT NULL COMMENT '安全员id',
+  `tehID` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '教师id',
+  `beigintime` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '开始时间',
+  `overtime` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '结束时间',
+  `location` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '位置',
+  `sostype` int(255) NULL DEFAULT NULL COMMENT '求助类型',
+  PRIMARY KEY (`ID`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Table structure for teacher
@@ -115,13 +90,7 @@ CREATE TABLE `teacher`  (
   `teachermajor` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   `teacherclass` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   PRIMARY KEY (`ID`, `teachertel`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
-
--- ----------------------------
--- Records of teacher
--- ----------------------------
-INSERT INTO `teacher` VALUES (1, 'HAH', '123456', '123143254', '2017202502', '2017202501');
-INSERT INTO `teacher` VALUES (2, 'bbk', '123455', '1232131', '', '2017202503');
+) ENGINE = InnoDB AUTO_INCREMENT = 10 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Table structure for user
@@ -142,26 +111,19 @@ CREATE TABLE `user`  (
   UNIQUE INDEX `get_id`(`ID`) USING BTREE,
   UNIQUE INDEX `telnumber`(`telnumber`) USING BTREE,
   UNIQUE INDEX `studentid`(`studentid`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 24 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci COMMENT = '用户表' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 27 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci COMMENT = '用户表' ROW_FORMAT = Dynamic;
 
 -- ----------------------------
--- Records of user
+-- View structure for adminindexid
 -- ----------------------------
-INSERT INTO `user` VALUES (1, '邹俊林', '1213326TT', '18313023', '201720250', 0, '未知', 0, '2017202501', 100);
-INSERT INTO `user` VALUES (2, '邹俊林', '1213326TT', '18313023631', '201720250126', 0, '未知', 0, '2017202502', 100);
-INSERT INTO `user` VALUES (3, '赵屹', '123456', '15912299763', '201720250124', 0, '未知', 1, '2017202501', 100);
-INSERT INTO `user` VALUES (4, '邹过过', '123456', '15087260418', '201720250111', 0, '未知', 1, '2017202502', 100);
-INSERT INTO `user` VALUES (9, '3', '3', '3', '3', 3, '3', 3, '3', 3);
-INSERT INTO `user` VALUES (10, '哈哈哈', '123456', '18313023321', '12345678', 0, '未知', 0, '未知', 100);
-INSERT INTO `user` VALUES (11, '零零', '123456', '15922299733', '201720250199', 0, '未知', 0, '未知', 100);
-INSERT INTO `user` VALUES (16, '4', '4', '4', '4', 34, '34', 34, '34', 34);
-INSERT INTO `user` VALUES (17, '发生的', '1234556', '18313023698', '12321312', 0, '未知', 0, '未知', 100);
-INSERT INTO `user` VALUES (18, '阿瑟东', '123456', '15913023631', '123123123', 0, '未知', 0, '未知', 100);
-INSERT INTO `user` VALUES (19, '大锤', '123456', '18313022631', '201720250120', 0, '未知', 0, '未知', 100);
-INSERT INTO `user` VALUES (20, '燃烧你的梦', '123456789', '15331594176', '201720250221', 0, '未知', 0, '未知', 100);
-INSERT INTO `user` VALUES (21, '邹俊林', '123456', '18313023632', '051254258766', 0, '未知', 0, '未知', 100);
-INSERT INTO `user` VALUES (22, '我靠', '123456', '18313823633', '201720250564', 0, '未知', 0, '未知', 100);
-INSERT INTO `user` VALUES (23, '小疯疯', '123456', '15608847275', '201720250209', 0, '未知', 0, '2017202502', 100);
+DROP VIEW IF EXISTS `adminindexid`;
+CREATE ALGORITHM = UNDEFINED SQL SECURITY DEFINER VIEW `adminindexid` AS select `user`.`ID` AS `ID`,`punchlog`.`today` AS `today`,`user`.`studentid` AS `studentid` from (`user` join `punchlog` on((`punchlog`.`ID` = `user`.`ID`)));
+
+-- ----------------------------
+-- View structure for failsafetyindex
+-- ----------------------------
+DROP VIEW IF EXISTS `failsafetyindex`;
+CREATE ALGORITHM = UNDEFINED SQL SECURITY DEFINER VIEW `failsafetyindex` AS select `user`.`ID` AS `ID`,`user`.`safetyindex` AS `safetyindex`,`punchlog`.`fail` AS `fail`,`punchlog`.`today` AS `today` from (`punchlog` join `user` on((`punchlog`.`ID` = `user`.`ID`)));
 
 -- ----------------------------
 -- View structure for securitystu
@@ -173,6 +135,6 @@ CREATE ALGORITHM = UNDEFINED SQL SECURITY DEFINER VIEW `securitystu` AS select `
 -- View structure for userinfo
 -- ----------------------------
 DROP VIEW IF EXISTS `userinfo`;
-CREATE ALGORITHM = UNDEFINED SQL SECURITY DEFINER VIEW `userinfo` AS select `user`.`ID` AS `ID`,`punchlog`.`success` AS `success`,`punchlog`.`fail` AS `fail`,`teacher`.`teachername` AS `teachername`,`teacher`.`teachertel` AS `teachertel`,`user`.`safetyindex` AS `safetyindex`,`dis`.`allergylog` AS `allergylog`,`dis`.`medicationlog` AS `medicationlog`,`securitystu`.`username` AS `secname`,`securitystu`.`telnumber` AS `sectel`,`configurationlog`.`securitytel` AS `securitytel`,`configurationlog`.`matterstel` AS `matterstel`,`configurationlog`.`begintime` AS `begintime`,`configurationlog`.`overtime` AS `overtime` from (((((`user` join `teacher` on(((`user`.`classname` = `teacher`.`teacherclass`) or (`user`.`classname` = `teacher`.`teachermajor`)))) join `dis` on((`dis`.`ID` = `user`.`ID`))) join `punchlog` on((`punchlog`.`ID` = `user`.`ID`))) join `securitystu` on((`user`.`classname` = `securitystu`.`classname`))) join `configurationlog`) where (`configurationlog`.`ID` = 1);
+CREATE ALGORITHM = UNDEFINED SQL SECURITY DEFINER VIEW `userinfo` AS select `user`.`ID` AS `ID`,`punchlog`.`success` AS `success`,`punchlog`.`fail` AS `fail`,`teacher`.`teachername` AS `teachername`,`teacher`.`teachertel` AS `teachertel`,`user`.`safetyindex` AS `safetyindex`,`dis`.`allergylog` AS `allergylog`,`dis`.`medicationlog` AS `medicationlog`,`dis`.`illog` AS `illog`,`securitystu`.`username` AS `secname`,`securitystu`.`telnumber` AS `sectel`,`configurationlog`.`securitytel` AS `securitytel`,`configurationlog`.`matterstel` AS `matterstel`,`configurationlog`.`begintime` AS `begintime`,`configurationlog`.`overtime` AS `overtime` from (((((`user` join `teacher` on(((`user`.`classname` = `teacher`.`teacherclass`) or (`user`.`classname` = `teacher`.`teachermajor`)))) join `dis` on((`dis`.`ID` = `user`.`ID`))) join `punchlog` on((`punchlog`.`ID` = `user`.`ID`))) join `securitystu` on((`user`.`classname` = `securitystu`.`classname`))) join `configurationlog`) where (`configurationlog`.`ID` = 1);
 
 SET FOREIGN_KEY_CHECKS = 1;

@@ -1,0 +1,2 @@
+<import src="./policepage.vue.wxml" />
+    <template is="7cc25281" data="{{ ...$root['0'], $root }}"/>

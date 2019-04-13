@@ -130,6 +130,13 @@
 
 </dependency>
 
+        <!--个推集成依赖包-->
+        <dependency>
+            <groupId>com.gexin.platform</groupId>
+            <artifactId>gexin-rp-sdk-http</artifactId>
+            <version>4.1.0.1</version>
+        </dependency>
+
     <!--thymeleaf 更友好的HTML5格式要求 依赖包-->
 
 
@@ -158,4 +165,10 @@
         </plugins>
     </build>
 
+    <repositories>
+        <repository>
+            <id>getui-nexus</id>
+            <url>http://mvn.gt.igexin.com/nexus/content/repositories/releases/</url>
+        </repository>
+    </repositories>
 </project>

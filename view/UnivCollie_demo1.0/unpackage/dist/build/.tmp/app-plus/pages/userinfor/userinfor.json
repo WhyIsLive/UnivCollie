@@ -1,0 +1,18 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "Personal Center",
+  "enablePullDownRefresh": true,
+  "navigationBarTextStyle": "white",
+  "titleNView": false,
+  "pullToRefresh": {
+    "color": "#ff3333",
+    "style": "default",
+    "height": "7%",
+    "contentdown": {
+      "caption": "重新获取定位..."
+    },
+    "contentrefresh": {
+      "caption": "正在获取定位..."
+    }
+  }
+}
