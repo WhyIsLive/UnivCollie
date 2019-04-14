@@ -18,7 +18,6 @@
     "url": ""
   },
   "permissions": {
-    "Push": {},
     "Maps": {
       "coordType": "gcj02"
     }
@@ -46,12 +45,36 @@
     "distribute": {
       "icons": {
         "android": {
-          "mdpi": "C:/Users/Administrator/Desktop/icon/48-48.png",
-          "ldpi": "C:/Users/Administrator/Desktop/icon/48-48.png",
-          "hdpi": "C:/Users/Administrator/Desktop/icon/72-72.png",
-          "xhdpi": "C:/Users/Administrator/Desktop/icon/96-96.png",
-          "xxhdpi": "C:/Users/Administrator/Desktop/icon/144-144.png",
-          "xxxhdpi": "C:/Users/Administrator/Desktop/icon/192-192.png"
+          "mdpi": "unpackage/res/icons/48x48.png",
+          "ldpi": "unpackage/res/icons/48x48.png",
+          "hdpi": "unpackage/res/icons/72x72.png",
+          "xhdpi": "unpackage/res/icons/96x96.png",
+          "xxhdpi": "unpackage/res/icons/144x144.png",
+          "xxxhdpi": "unpackage/res/icons/192x192.png"
+        },
+        "ios": {
+          "appstore": "C:/Users/Administrator/Desktop/icon/1024-1024IOS.png",
+          "ipad": {
+            "app": "unpackage/res/icons/76x76.png",
+            "app@2x": "unpackage/res/icons/152x152.png",
+            "notification": "unpackage/res/icons/20x20.png",
+            "notification@2x": "unpackage/res/icons/40x40.png",
+            "proapp@2x": "unpackage/res/icons/167x167.png",
+            "settings": "unpackage/res/icons/29x29.png",
+            "settings@2x": "unpackage/res/icons/58x58.png",
+            "spotlight": "unpackage/res/icons/40x40.png",
+            "spotlight@2x": "unpackage/res/icons/80x80.png"
+          },
+          "iphone": {
+            "app@2x": "unpackage/res/icons/120x120.png",
+            "app@3x": "unpackage/res/icons/180x180.png",
+            "notification@2x": "unpackage/res/icons/40x40.png",
+            "notification@3x": "unpackage/res/icons/60x60.png",
+            "settings@2x": "unpackage/res/icons/58x58.png",
+            "settings@3x": "unpackage/res/icons/87x87.png",
+            "spotlight@2x": "unpackage/res/icons/80x80.png",
+            "spotlight@3x": "unpackage/res/icons/120x120.png"
+          }
         }
       },
       "google": {
@@ -92,13 +115,7 @@
             "appkey_android": "c1b724d1222456cc4df27e0572830333"
           }
         },
-        "push": {
-          "igexin": {
-            "appid": "w7oeT2bSdp7ODcfltx9uA5",
-            "appkey": "6SuWQGvVoa56A6XrgB0Lg1",
-            "appsecret": "ffq6TCj2xj8XhvSIkcdQV"
-          }
-        },
+        "push": {},
         "audio": {
           "mp3": {
             "description": "Android平台录音支持MP3格式文件"

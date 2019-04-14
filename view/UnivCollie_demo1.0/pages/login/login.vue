@@ -93,21 +93,21 @@
 					}
 				})
 			};
-			uni.getProvider({
-				service: 'push',
-				success: function(res) {
-					console.log(res.provider);
-					// 个推的名称为 igexin
-					if (~res.provider.indexOf('igexin')) {
-						uni.subscribePush({
-							provider: 'igexin',
-							success: function(res) {
-								console.log('success:' + JSON.stringify(res));
-							}
-						});
-					}
-				}
-			});
+// 			uni.getProvider({
+// 				service: 'push',
+// 				success: function(res) {
+// 					console.log(res.provider);
+// 					// 个推的名称为 igexin
+// 					if (~res.provider.indexOf('igexin')) {
+// 						uni.subscribePush({
+// 							provider: 'igexin',
+// 							success: function(res) {
+// 								console.log('success:' + JSON.stringify(res));
+// 							}
+// 						});
+// 					}
+// 				}
+// 			});
 		},
 
 		methods: {
